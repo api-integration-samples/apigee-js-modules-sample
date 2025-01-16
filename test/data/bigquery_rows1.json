@@ -1,0 +1,906 @@
+{
+  "kind": "bigquery#queryResponse",
+  "schema": {
+    "fields": [
+      {
+        "name": "SendingTime",
+        "type": "TIMESTAMP",
+        "mode": "NULLABLE"
+      },
+      {
+        "name": "TargetCompID",
+        "type": "STRING",
+        "mode": "NULLABLE"
+      },
+      {
+        "name": "SenderCompID",
+        "type": "STRING",
+        "mode": "NULLABLE"
+      },
+      {
+        "name": "Symbol",
+        "type": "STRING",
+        "mode": "NULLABLE"
+      },
+      {
+        "name": "Quantity",
+        "type": "INTEGER",
+        "mode": "NULLABLE"
+      },
+      {
+        "name": "OrderID",
+        "type": "STRING",
+        "mode": "NULLABLE"
+      },
+      {
+        "name": "TransactTime",
+        "type": "TIMESTAMP",
+        "mode": "NULLABLE"
+      },
+      {
+        "name": "StrikePrice",
+        "type": "FLOAT",
+        "mode": "NULLABLE"
+      },
+      {
+        "name": "LastPx",
+        "type": "FLOAT",
+        "mode": "NULLABLE"
+      },
+      {
+        "name": "MaturityDate",
+        "type": "TIMESTAMP",
+        "mode": "NULLABLE"
+      },
+      {
+        "name": "TradeReportID",
+        "type": "STRING",
+        "mode": "NULLABLE"
+      },
+      {
+        "name": "TradeDate",
+        "type": "DATE",
+        "mode": "NULLABLE"
+      },
+      {
+        "name": "CFICode",
+        "type": "STRING",
+        "mode": "NULLABLE"
+      },
+      {
+        "name": "Sides",
+        "type": "RECORD",
+        "mode": "REPEATED",
+        "fields": [
+          {
+            "name": "Side",
+            "type": "STRING",
+            "mode": "NULLABLE"
+          },
+          {
+            "name": "OrderID",
+            "type": "STRING",
+            "mode": "NULLABLE"
+          },
+          {
+            "name": "PartyIDs",
+            "type": "RECORD",
+            "mode": "REPEATED",
+            "fields": [
+              {
+                "name": "PartyID",
+                "type": "STRING",
+                "mode": "NULLABLE"
+              },
+              {
+                "name": "PartyIDSource",
+                "type": "STRING",
+                "mode": "NULLABLE"
+              },
+              {
+                "name": "PartyRole",
+                "type": "STRING",
+                "mode": "NULLABLE"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "jobReference": {
+    "projectId": "apigee-test38",
+    "jobId": "job_ooRn5puSUGEOmZ86PoQa9brayz8L",
+    "location": "US"
+  },
+  "totalRows": "10",
+  "rows": [
+    {
+      "f": [
+        {
+          "v": "1.589822528E9"
+        },
+        {
+          "v": "MOMOES-COMPID"
+        },
+        {
+          "v": "MDOC"
+        },
+        {
+          "v": "ESM0"
+        },
+        {
+          "v": "1"
+        },
+        {
+          "v": "941cec35-a984-4748-a4e5-202c8005c284"
+        },
+        {
+          "v": "1.589822529166E9"
+        },
+        {
+          "v": "2953.375"
+        },
+        {
+          "v": "2952.375"
+        },
+        {
+          "v": "1.589822589166E9"
+        },
+        {
+          "v": "941cec35-a984-4748-a4e5-202c8005c284-0"
+        },
+        {
+          "v": "2020-05-18"
+        },
+        {
+          "v": "MMMXXX"
+        },
+        {
+          "v": [
+            {
+              "v": {
+                "f": [
+                  {
+                    "v": "LONG"
+                  },
+                  {
+                    "v": "941cec35-a984-4748-a4e5-202c8005c284"
+                  },
+                  {
+                    "v": [
+                      {
+                        "v": {
+                          "f": [
+                            {
+                              "v": "MOMOES"
+                            },
+                            {
+                              "v": "PROP CODE"
+                            },
+                            {
+                              "v": "INITIATING TRADER"
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "f": [
+        {
+          "v": "1.589822682E9"
+        },
+        {
+          "v": "MOMOES-COMPID"
+        },
+        {
+          "v": "MDOC"
+        },
+        {
+          "v": "ESM0"
+        },
+        {
+          "v": "1"
+        },
+        {
+          "v": "e2475938-6771-462c-aa1e-037eb1da9ec3"
+        },
+        {
+          "v": "1.589822682808E9"
+        },
+        {
+          "v": "2952.625"
+        },
+        {
+          "v": "2952.875"
+        },
+        {
+          "v": "1.589822742808E9"
+        },
+        {
+          "v": "e2475938-6771-462c-aa1e-037eb1da9ec3-0"
+        },
+        {
+          "v": "2020-05-18"
+        },
+        {
+          "v": "MMMXXX"
+        },
+        {
+          "v": [
+            {
+              "v": {
+                "f": [
+                  {
+                    "v": "LONG"
+                  },
+                  {
+                    "v": "e2475938-6771-462c-aa1e-037eb1da9ec3"
+                  },
+                  {
+                    "v": [
+                      {
+                        "v": {
+                          "f": [
+                            {
+                              "v": "MOMOES"
+                            },
+                            {
+                              "v": "PROP CODE"
+                            },
+                            {
+                              "v": "INITIATING TRADER"
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "f": [
+        {
+          "v": "1.589824047E9"
+        },
+        {
+          "v": "MOMOES-COMPID"
+        },
+        {
+          "v": "MDOC"
+        },
+        {
+          "v": "ESM0"
+        },
+        {
+          "v": "1"
+        },
+        {
+          "v": "01644bd7-e8a9-4dd2-82a4-8764a9e239a9"
+        },
+        {
+          "v": "1.589824048282E9"
+        },
+        {
+          "v": "2953.625"
+        },
+        {
+          "v": "2952.125"
+        },
+        {
+          "v": "1.589824108282E9"
+        },
+        {
+          "v": "01644bd7-e8a9-4dd2-82a4-8764a9e239a9-0"
+        },
+        {
+          "v": "2020-05-18"
+        },
+        {
+          "v": "MMMXXX"
+        },
+        {
+          "v": [
+            {
+              "v": {
+                "f": [
+                  {
+                    "v": "LONG"
+                  },
+                  {
+                    "v": "01644bd7-e8a9-4dd2-82a4-8764a9e239a9"
+                  },
+                  {
+                    "v": [
+                      {
+                        "v": {
+                          "f": [
+                            {
+                              "v": "MOMOES"
+                            },
+                            {
+                              "v": "PROP CODE"
+                            },
+                            {
+                              "v": "INITIATING TRADER"
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "f": [
+        {
+          "v": "1.589824809E9"
+        },
+        {
+          "v": "MOMOES-COMPID"
+        },
+        {
+          "v": "MDOC"
+        },
+        {
+          "v": "ESM0"
+        },
+        {
+          "v": "1"
+        },
+        {
+          "v": "0da7c30c-8518-48fe-80ac-6fe0332bb0c1"
+        },
+        {
+          "v": "1.589824810385E9"
+        },
+        {
+          "v": "2953.875"
+        },
+        {
+          "v": "2953.125"
+        },
+        {
+          "v": "1.589824870385E9"
+        },
+        {
+          "v": "0da7c30c-8518-48fe-80ac-6fe0332bb0c1-0"
+        },
+        {
+          "v": "2020-05-18"
+        },
+        {
+          "v": "MMMXXX"
+        },
+        {
+          "v": [
+            {
+              "v": {
+                "f": [
+                  {
+                    "v": "LONG"
+                  },
+                  {
+                    "v": "0da7c30c-8518-48fe-80ac-6fe0332bb0c1"
+                  },
+                  {
+                    "v": [
+                      {
+                        "v": {
+                          "f": [
+                            {
+                              "v": "MOMOES"
+                            },
+                            {
+                              "v": "PROP CODE"
+                            },
+                            {
+                              "v": "INITIATING TRADER"
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "f": [
+        {
+          "v": "1.589824893E9"
+        },
+        {
+          "v": "MOMOES-COMPID"
+        },
+        {
+          "v": "MDOC"
+        },
+        {
+          "v": "ESM0"
+        },
+        {
+          "v": "1"
+        },
+        {
+          "v": "c0b13981-d5bf-4db1-8091-bc12eb8bd82b"
+        },
+        {
+          "v": "1.589824893801E9"
+        },
+        {
+          "v": "2953.625"
+        },
+        {
+          "v": "2954.125"
+        },
+        {
+          "v": "1.589824953801E9"
+        },
+        {
+          "v": "c0b13981-d5bf-4db1-8091-bc12eb8bd82b-0"
+        },
+        {
+          "v": "2020-05-18"
+        },
+        {
+          "v": "MMMXXX"
+        },
+        {
+          "v": [
+            {
+              "v": {
+                "f": [
+                  {
+                    "v": "LONG"
+                  },
+                  {
+                    "v": "c0b13981-d5bf-4db1-8091-bc12eb8bd82b"
+                  },
+                  {
+                    "v": [
+                      {
+                        "v": {
+                          "f": [
+                            {
+                              "v": "MOMOES"
+                            },
+                            {
+                              "v": "PROP CODE"
+                            },
+                            {
+                              "v": "INITIATING TRADER"
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "f": [
+        {
+          "v": "1.589825076E9"
+        },
+        {
+          "v": "MOMOES-COMPID"
+        },
+        {
+          "v": "MDOC"
+        },
+        {
+          "v": "ESM0"
+        },
+        {
+          "v": "1"
+        },
+        {
+          "v": "aac40cae-8951-4bde-afeb-8d4bd04bdad4"
+        },
+        {
+          "v": "1.589825076775E9"
+        },
+        {
+          "v": "2956.125"
+        },
+        {
+          "v": "2956.125"
+        },
+        {
+          "v": "1.589825136775E9"
+        },
+        {
+          "v": "aac40cae-8951-4bde-afeb-8d4bd04bdad4-0"
+        },
+        {
+          "v": "2020-05-18"
+        },
+        {
+          "v": "MMMXXX"
+        },
+        {
+          "v": [
+            {
+              "v": {
+                "f": [
+                  {
+                    "v": "LONG"
+                  },
+                  {
+                    "v": "aac40cae-8951-4bde-afeb-8d4bd04bdad4"
+                  },
+                  {
+                    "v": [
+                      {
+                        "v": {
+                          "f": [
+                            {
+                              "v": "MOMOES"
+                            },
+                            {
+                              "v": "PROP CODE"
+                            },
+                            {
+                              "v": "INITIATING TRADER"
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "f": [
+        {
+          "v": "1.589825306E9"
+        },
+        {
+          "v": "MOMOES-COMPID"
+        },
+        {
+          "v": "MDOC"
+        },
+        {
+          "v": "ESM0"
+        },
+        {
+          "v": "1"
+        },
+        {
+          "v": "8d47d94d-92ee-438c-929d-9381a26d923f"
+        },
+        {
+          "v": "1.589825307374E9"
+        },
+        {
+          "v": "2952.125"
+        },
+        {
+          "v": "2954.375"
+        },
+        {
+          "v": "1.589825367374E9"
+        },
+        {
+          "v": "8d47d94d-92ee-438c-929d-9381a26d923f-0"
+        },
+        {
+          "v": "2020-05-18"
+        },
+        {
+          "v": "MMMXXX"
+        },
+        {
+          "v": [
+            {
+              "v": {
+                "f": [
+                  {
+                    "v": "LONG"
+                  },
+                  {
+                    "v": "8d47d94d-92ee-438c-929d-9381a26d923f"
+                  },
+                  {
+                    "v": [
+                      {
+                        "v": {
+                          "f": [
+                            {
+                              "v": "MOMOES"
+                            },
+                            {
+                              "v": "PROP CODE"
+                            },
+                            {
+                              "v": "INITIATING TRADER"
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "f": [
+        {
+          "v": "1.58982684E9"
+        },
+        {
+          "v": "MOMOES-COMPID"
+        },
+        {
+          "v": "MDOC"
+        },
+        {
+          "v": "ESM0"
+        },
+        {
+          "v": "1"
+        },
+        {
+          "v": "15d5d37d-4e8b-4733-8d76-ba3e17fdf795"
+        },
+        {
+          "v": "1.589826847094E9"
+        },
+        {
+          "v": "2954.625"
+        },
+        {
+          "v": "2954.875"
+        },
+        {
+          "v": "1.589826907094E9"
+        },
+        {
+          "v": "15d5d37d-4e8b-4733-8d76-ba3e17fdf795-0"
+        },
+        {
+          "v": "2020-05-18"
+        },
+        {
+          "v": "MMMXXX"
+        },
+        {
+          "v": [
+            {
+              "v": {
+                "f": [
+                  {
+                    "v": "LONG"
+                  },
+                  {
+                    "v": "15d5d37d-4e8b-4733-8d76-ba3e17fdf795"
+                  },
+                  {
+                    "v": [
+                      {
+                        "v": {
+                          "f": [
+                            {
+                              "v": "MOMOES"
+                            },
+                            {
+                              "v": "PROP CODE"
+                            },
+                            {
+                              "v": "INITIATING TRADER"
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "f": [
+        {
+          "v": "1.589826923E9"
+        },
+        {
+          "v": "MOMOES-COMPID"
+        },
+        {
+          "v": "MDOC"
+        },
+        {
+          "v": "ESM0"
+        },
+        {
+          "v": "1"
+        },
+        {
+          "v": "ffb471a2-af58-432c-9257-8039e93a0a14"
+        },
+        {
+          "v": "1.589826924418E9"
+        },
+        {
+          "v": "2954.875"
+        },
+        {
+          "v": "2954.625"
+        },
+        {
+          "v": "1.589826984418E9"
+        },
+        {
+          "v": "ffb471a2-af58-432c-9257-8039e93a0a14-0"
+        },
+        {
+          "v": "2020-05-18"
+        },
+        {
+          "v": "MMMXXX"
+        },
+        {
+          "v": [
+            {
+              "v": {
+                "f": [
+                  {
+                    "v": "LONG"
+                  },
+                  {
+                    "v": "ffb471a2-af58-432c-9257-8039e93a0a14"
+                  },
+                  {
+                    "v": [
+                      {
+                        "v": {
+                          "f": [
+                            {
+                              "v": "MOMOES"
+                            },
+                            {
+                              "v": "PROP CODE"
+                            },
+                            {
+                              "v": "INITIATING TRADER"
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "f": [
+        {
+          "v": "1.589827177E9"
+        },
+        {
+          "v": "MOMOES-COMPID"
+        },
+        {
+          "v": "MDOC"
+        },
+        {
+          "v": "ESM0"
+        },
+        {
+          "v": "1"
+        },
+        {
+          "v": "1c9973db-8c84-4b27-be7a-c26e27adfb83"
+        },
+        {
+          "v": "1.589827178198E9"
+        },
+        {
+          "v": "2955.375"
+        },
+        {
+          "v": "2954.875"
+        },
+        {
+          "v": "1.589827238198E9"
+        },
+        {
+          "v": "1c9973db-8c84-4b27-be7a-c26e27adfb83-0"
+        },
+        {
+          "v": "2020-05-18"
+        },
+        {
+          "v": "MMMXXX"
+        },
+        {
+          "v": [
+            {
+              "v": {
+                "f": [
+                  {
+                    "v": "LONG"
+                  },
+                  {
+                    "v": "1c9973db-8c84-4b27-be7a-c26e27adfb83"
+                  },
+                  {
+                    "v": [
+                      {
+                        "v": {
+                          "f": [
+                            {
+                              "v": "MOMOES"
+                            },
+                            {
+                              "v": "PROP CODE"
+                            },
+                            {
+                              "v": "INITIATING TRADER"
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "totalBytesProcessed": "312756484",
+  "jobComplete": true,
+  "cacheHit": false,
+  "queryId": "job_ooRn5puSUGEOmZ86PoQa9brayz8L",
+  "jobCreationReason": {
+    "code": "REQUESTED"
+  }
+}

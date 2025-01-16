@@ -1,0 +1,321 @@
+[{
+  "candidates": [
+    {
+      "content": {
+        "role": "model",
+        "parts": [
+          {
+            "text": "The sky appears blue due to a phenomenon called Rayleigh scattering. When sunlight enters the Earth's atmosphere, it encounters molecules of"
+          }
+        ]
+      },
+      "safetyRatings": [
+        {
+          "category": "HARM_CATEGORY_HATE_SPEECH",
+          "probability": "NEGLIGIBLE",
+          "probabilityScore": 0.062674366,
+          "severity": "HARM_SEVERITY_NEGLIGIBLE",
+          "severityScore": 0.024376597
+        },
+        {
+          "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+          "probability": "NEGLIGIBLE",
+          "probabilityScore": 0.22388572,
+          "severity": "HARM_SEVERITY_NEGLIGIBLE",
+          "severityScore": 0.046551272
+        },
+        {
+          "category": "HARM_CATEGORY_HARASSMENT",
+          "probability": "NEGLIGIBLE",
+          "probabilityScore": 0.12064587,
+          "severity": "HARM_SEVERITY_NEGLIGIBLE",
+          "severityScore": 0.017848738
+        },
+        {
+          "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+          "probability": "NEGLIGIBLE",
+          "probabilityScore": 0.07765744,
+          "severity": "HARM_SEVERITY_NEGLIGIBLE",
+          "severityScore": 0.028382123
+        }
+      ]
+    }
+  ]
+}
+,
+{
+  "candidates": [
+    {
+      "content": {
+        "role": "model",
+        "parts": [
+          {
+            "text": " various sizes and compositions, including nitrogen, oxygen, and water vapor.\n\n* **Wavelength Dependence:** Shorter wavelengths of light, such"
+          }
+        ]
+      },
+      "safetyRatings": [
+        {
+          "category": "HARM_CATEGORY_HATE_SPEECH",
+          "probability": "NEGLIGIBLE",
+          "probabilityScore": 0.030329255,
+          "severity": "HARM_SEVERITY_NEGLIGIBLE",
+          "severityScore": 0.020924192
+        },
+        {
+          "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+          "probability": "NEGLIGIBLE",
+          "probabilityScore": 0.13637818,
+          "severity": "HARM_SEVERITY_NEGLIGIBLE",
+          "severityScore": 0.043123372
+        },
+        {
+          "category": "HARM_CATEGORY_HARASSMENT",
+          "probability": "NEGLIGIBLE",
+          "probabilityScore": 0.08897849,
+          "severity": "HARM_SEVERITY_NEGLIGIBLE",
+          "severityScore": 0.011597361
+        },
+        {
+          "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+          "probability": "NEGLIGIBLE",
+          "probabilityScore": 0.08961382,
+          "severity": "HARM_SEVERITY_NEGLIGIBLE",
+          "severityScore": 0.018404892
+        }
+      ]
+    }
+  ]
+}
+,
+{
+  "candidates": [
+    {
+      "content": {
+        "role": "model",
+        "parts": [
+          {
+            "text": " as blue and violet, are more likely to be scattered by these molecules than longer wavelengths, such as red and orange. This is because the shorter wavelengths have a higher frequency and are more easily deflected by the smaller molecules in the atmosphere.\n\n* **Scattering Angle:**"
+          }
+        ]
+      },
+      "safetyRatings": [
+        {
+          "category": "HARM_CATEGORY_HATE_SPEECH",
+          "probability": "NEGLIGIBLE",
+          "probabilityScore": 0.040922303,
+          "severity": "HARM_SEVERITY_NEGLIGIBLE",
+          "severityScore": 0.020293485
+        },
+        {
+          "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+          "probability": "NEGLIGIBLE",
+          "probabilityScore": 0.13799648,
+          "severity": "HARM_SEVERITY_NEGLIGIBLE",
+          "severityScore": 0.045862667
+        },
+        {
+          "category": "HARM_CATEGORY_HARASSMENT",
+          "probability": "NEGLIGIBLE",
+          "probabilityScore": 0.10875559,
+          "severity": "HARM_SEVERITY_NEGLIGIBLE",
+          "severityScore": 0.014728614
+        },
+        {
+          "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+          "probability": "NEGLIGIBLE",
+          "probabilityScore": 0.11338311,
+          "severity": "HARM_SEVERITY_NEGLIGIBLE",
+          "severityScore": 0.013325147
+        }
+      ]
+    }
+  ]
+}
+,
+{
+  "candidates": [
+    {
+      "content": {
+        "role": "model",
+        "parts": [
+          {
+            "text": " The scattered light travels in all directions. However, since blue and violet light are scattered more than other colors, they dominate the light that reaches our eyes from most directions. This makes the sky appear blue to us.\n\n* **Direction of Observation:** The"
+          }
+        ]
+      },
+      "safetyRatings": [
+        {
+          "category": "HARM_CATEGORY_HATE_SPEECH",
+          "probability": "NEGLIGIBLE",
+          "probabilityScore": 0.050988145,
+          "severity": "HARM_SEVERITY_NEGLIGIBLE",
+          "severityScore": 0.025178842
+        },
+        {
+          "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+          "probability": "NEGLIGIBLE",
+          "probabilityScore": 0.108566426,
+          "severity": "HARM_SEVERITY_NEGLIGIBLE",
+          "severityScore": 0.05470151
+        },
+        {
+          "category": "HARM_CATEGORY_HARASSMENT",
+          "probability": "NEGLIGIBLE",
+          "probabilityScore": 0.10576342,
+          "severity": "HARM_SEVERITY_NEGLIGIBLE",
+          "severityScore": 0.015424552
+        },
+        {
+          "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+          "probability": "NEGLIGIBLE",
+          "probabilityScore": 0.10212548,
+          "severity": "HARM_SEVERITY_NEGLIGIBLE",
+          "severityScore": 0.015130728
+        }
+      ]
+    }
+  ]
+}
+,
+{
+  "candidates": [
+    {
+      "content": {
+        "role": "model",
+        "parts": [
+          {
+            "text": " scattering of sunlight is strongest when viewed in directions perpendicular to the direction of the sun. This is why the sky appears brightest blue directly overhead. As you look closer to the horizon, the sunlight has to travel through more atmosphere, which results in increased scattering of all wavelengths and a paler blue color.\n\n* **"
+          }
+        ]
+      },
+      "safetyRatings": [
+        {
+          "category": "HARM_CATEGORY_HATE_SPEECH",
+          "probability": "NEGLIGIBLE",
+          "probabilityScore": 0.04468087,
+          "severity": "HARM_SEVERITY_NEGLIGIBLE",
+          "severityScore": 0.024845436
+        },
+        {
+          "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+          "probability": "NEGLIGIBLE",
+          "probabilityScore": 0.092359796,
+          "severity": "HARM_SEVERITY_NEGLIGIBLE",
+          "severityScore": 0.060640547
+        },
+        {
+          "category": "HARM_CATEGORY_HARASSMENT",
+          "probability": "NEGLIGIBLE",
+          "probabilityScore": 0.10837755,
+          "severity": "HARM_SEVERITY_NEGLIGIBLE",
+          "severityScore": 0.01678549
+        },
+        {
+          "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+          "probability": "NEGLIGIBLE",
+          "probabilityScore": 0.093678,
+          "severity": "HARM_SEVERITY_NEGLIGIBLE",
+          "severityScore": 0.02017732
+        }
+      ]
+    }
+  ]
+}
+,
+{
+  "candidates": [
+    {
+      "content": {
+        "role": "model",
+        "parts": [
+          {
+            "text": "Other Factors:** Other factors, such as the presence of dust, smoke, or clouds, can affect the appearance of the sky. For example, a high concentration of dust particles in the atmosphere can cause the sky to appear red or orange, as the longer wavelengths are not scattered as much as the shorter ones.\n\nSo, while the sun emits all colors of light, the scattering of light in the atmosphere causes"
+          }
+        ]
+      },
+      "safetyRatings": [
+        {
+          "category": "HARM_CATEGORY_HATE_SPEECH",
+          "probability": "NEGLIGIBLE",
+          "probabilityScore": 0.04304285,
+          "severity": "HARM_SEVERITY_NEGLIGIBLE",
+          "severityScore": 0.023825368
+        },
+        {
+          "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+          "probability": "NEGLIGIBLE",
+          "probabilityScore": 0.07921032,
+          "severity": "HARM_SEVERITY_NEGLIGIBLE",
+          "severityScore": 0.043609526
+        },
+        {
+          "category": "HARM_CATEGORY_HARASSMENT",
+          "probability": "NEGLIGIBLE",
+          "probabilityScore": 0.09057447,
+          "severity": "HARM_SEVERITY_NEGLIGIBLE",
+          "severityScore": 0.015130728
+        },
+        {
+          "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+          "probability": "NEGLIGIBLE",
+          "probabilityScore": 0.09653532,
+          "severity": "HARM_SEVERITY_NEGLIGIBLE",
+          "severityScore": 0.017242778
+        }
+      ]
+    }
+  ]
+}
+,
+{
+  "candidates": [
+    {
+      "content": {
+        "role": "model",
+        "parts": [
+          {
+            "text": " us to perceive the sky as predominantly blue."
+          }
+        ]
+      },
+      "finishReason": "STOP",
+      "safetyRatings": [
+        {
+          "category": "HARM_CATEGORY_HATE_SPEECH",
+          "probability": "NEGLIGIBLE",
+          "probabilityScore": 0.045862667,
+          "severity": "HARM_SEVERITY_NEGLIGIBLE",
+          "severityScore": 0.025662705
+        },
+        {
+          "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+          "probability": "NEGLIGIBLE",
+          "probabilityScore": 0.071202725,
+          "severity": "HARM_SEVERITY_NEGLIGIBLE",
+          "severityScore": 0.043691058
+        },
+        {
+          "category": "HARM_CATEGORY_HARASSMENT",
+          "probability": "NEGLIGIBLE",
+          "probabilityScore": 0.09351231,
+          "severity": "HARM_SEVERITY_NEGLIGIBLE",
+          "severityScore": 0.01627746
+        },
+        {
+          "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+          "probability": "NEGLIGIBLE",
+          "probabilityScore": 0.09401018,
+          "severity": "HARM_SEVERITY_NEGLIGIBLE",
+          "severityScore": 0.016403032
+        }
+      ]
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 6,
+    "candidatesTokenCount": 309,
+    "totalTokenCount": 315
+  }
+}
+]

@@ -1,0 +1,204 @@
+{
+  "kind": "bigquery#queryResponse",
+  "schema": {
+    "fields": [
+      {
+        "name": "SendingTime",
+        "type": "TIMESTAMP",
+        "mode": "NULLABLE"
+      },
+      {
+        "name": "TargetCompID",
+        "type": "STRING",
+        "mode": "NULLABLE"
+      },
+      {
+        "name": "SenderCompID",
+        "type": "STRING",
+        "mode": "NULLABLE"
+      },
+      {
+        "name": "Symbol",
+        "type": "STRING",
+        "mode": "NULLABLE"
+      },
+      {
+        "name": "Quantity",
+        "type": "INTEGER",
+        "mode": "NULLABLE"
+      },
+      {
+        "name": "OrderID",
+        "type": "STRING",
+        "mode": "NULLABLE"
+      },
+      {
+        "name": "TransactTime",
+        "type": "TIMESTAMP",
+        "mode": "NULLABLE"
+      },
+      {
+        "name": "StrikePrice",
+        "type": "FLOAT",
+        "mode": "NULLABLE"
+      },
+      {
+        "name": "LastPx",
+        "type": "FLOAT",
+        "mode": "NULLABLE"
+      },
+      {
+        "name": "MaturityDate",
+        "type": "TIMESTAMP",
+        "mode": "NULLABLE"
+      },
+      {
+        "name": "TradeReportID",
+        "type": "STRING",
+        "mode": "NULLABLE"
+      },
+      {
+        "name": "TradeDate",
+        "type": "DATE",
+        "mode": "NULLABLE"
+      },
+      {
+        "name": "CFICode",
+        "type": "STRING",
+        "mode": "NULLABLE"
+      },
+      {
+        "name": "Sides",
+        "type": "RECORD",
+        "mode": "REPEATED",
+        "fields": [
+          {
+            "name": "Side",
+            "type": "STRING",
+            "mode": "NULLABLE"
+          },
+          {
+            "name": "OrderID",
+            "type": "STRING",
+            "mode": "NULLABLE"
+          },
+          {
+            "name": "PartyIDs",
+            "type": "RECORD",
+            "mode": "REPEATED",
+            "fields": [
+              {
+                "name": "PartyID",
+                "type": "STRING",
+                "mode": "NULLABLE"
+              },
+              {
+                "name": "PartyIDSource",
+                "type": "STRING",
+                "mode": "NULLABLE"
+              },
+              {
+                "name": "PartyRole",
+                "type": "STRING",
+                "mode": "NULLABLE"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "jobReference": {
+    "projectId": "apigee-test38",
+    "jobId": "job_2Wv3udtfkqmb9dhAt48a__ZT_yW0",
+    "location": "US"
+  },
+  "totalRows": "1",
+  "rows": [
+    {
+      "f": [
+        {
+          "v": "1.589822877E9"
+        },
+        {
+          "v": "MOMOES-COMPID"
+        },
+        {
+          "v": "MDOC"
+        },
+        {
+          "v": "ESM0"
+        },
+        {
+          "v": "1"
+        },
+        {
+          "v": "50bfaefb-53f3-4454-92af-f2fc11ab9176"
+        },
+        {
+          "v": "1.589822878165E9"
+        },
+        {
+          "v": "2954.125"
+        },
+        {
+          "v": "2953.125"
+        },
+        {
+          "v": "1.589822938165E9"
+        },
+        {
+          "v": "50bfaefb-53f3-4454-92af-f2fc11ab9176-0"
+        },
+        {
+          "v": "2020-05-18"
+        },
+        {
+          "v": "MMMXXX"
+        },
+        {
+          "v": [
+            {
+              "v": {
+                "f": [
+                  {
+                    "v": "LONG"
+                  },
+                  {
+                    "v": "50bfaefb-53f3-4454-92af-f2fc11ab9176"
+                  },
+                  {
+                    "v": [
+                      {
+                        "v": {
+                          "f": [
+                            {
+                              "v": "MOMOES"
+                            },
+                            {
+                              "v": "PROP CODE"
+                            },
+                            {
+                              "v": "INITIATING TRADER"
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "totalBytesProcessed": "0",
+  "jobComplete": true,
+  "cacheHit": true,
+  "queryId": "job_2Wv3udtfkqmb9dhAt48a__ZT_yW0",
+  "jobCreationReason": {
+    "code": "REQUESTED"
+  }
+}

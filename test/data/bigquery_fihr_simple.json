@@ -1,0 +1,71 @@
+{
+  "kind": "bigquery#queryResponse",
+  "schema": {
+    "fields": [
+      {
+        "name": "id",
+        "type": "STRING",
+        "mode": "NULLABLE"
+      },
+      {
+        "name": "meta",
+        "type": "RECORD",
+        "mode": "NULLABLE",
+        "fields": [
+          {
+            "name": "versionId",
+            "type": "STRING",
+            "mode": "NULLABLE"
+          },
+          {
+            "name": "lastUpdated",
+            "type": "STRING",
+            "mode": "NULLABLE"
+          },
+          {
+            "name": "source",
+            "type": "STRING",
+            "mode": "NULLABLE"
+          }
+        ]
+      }
+    ]
+  },
+  "jobReference": {
+    "projectId": "apigee-tlab1",
+    "jobId": "job_HbDrrFpEye5czNeZnAxtxc73LTXj",
+    "location": "EU"
+  },
+  "totalRows": "1",
+  "rows": [
+    {
+      "f": [
+        {
+          "v": "850"
+        },
+        {
+          "v": {
+            "f": [
+              {
+                "v": "1"
+              },
+              {
+                "v": "2024-11-22T06:58:28.000+00:00"
+              },
+              {
+                "v": null
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "totalBytesProcessed": "0",
+  "jobComplete": true,
+  "cacheHit": true,
+  "queryId": "job_HbDrrFpEye5czNeZnAxtxc73LTXj",
+  "jobCreationReason": {
+    "code": "REQUESTED"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": {
+    "stringValue": "test-doc1"
+  },
+  "id": {
+    "stringValue": "test-doc1"
+  },
+  "roles": {
+    "arrayValue": {
+      "values": [
+        {
+          "stringValue": "admin"
+        },
+        {
+          "stringValue": "internal"
+        }
+      ]
+    }
+  }
+}

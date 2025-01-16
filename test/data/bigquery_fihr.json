@@ -1,0 +1,3969 @@
+{
+  "kind": "bigquery#queryResponse",
+  "schema": {
+    "fields": [
+      {
+        "name": "id",
+        "type": "STRING",
+        "mode": "NULLABLE"
+      },
+      {
+        "name": "meta",
+        "type": "RECORD",
+        "mode": "NULLABLE",
+        "fields": [
+          {
+            "name": "versionId",
+            "type": "STRING",
+            "mode": "NULLABLE"
+          },
+          {
+            "name": "lastUpdated",
+            "type": "STRING",
+            "mode": "NULLABLE"
+          },
+          {
+            "name": "source",
+            "type": "STRING",
+            "mode": "NULLABLE"
+          },
+          {
+            "name": "profile",
+            "type": "RECORD",
+            "mode": "NULLABLE",
+            "fields": [
+              {
+                "name": "array",
+                "type": "STRING",
+                "mode": "REPEATED"
+              }
+            ]
+          },
+          {
+            "name": "security",
+            "type": "RECORD",
+            "mode": "NULLABLE",
+            "fields": [
+              {
+                "name": "array",
+                "type": "RECORD",
+                "mode": "REPEATED",
+                "fields": [
+                  {
+                    "name": "system",
+                    "type": "STRING",
+                    "mode": "NULLABLE"
+                  },
+                  {
+                    "name": "version",
+                    "type": "STRING",
+                    "mode": "NULLABLE"
+                  },
+                  {
+                    "name": "code",
+                    "type": "STRING",
+                    "mode": "NULLABLE"
+                  },
+                  {
+                    "name": "display",
+                    "type": "STRING",
+                    "mode": "NULLABLE"
+                  },
+                  {
+                    "name": "userSelected",
+                    "type": "BOOLEAN",
+                    "mode": "NULLABLE"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "tag",
+            "type": "RECORD",
+            "mode": "NULLABLE",
+            "fields": [
+              {
+                "name": "array",
+                "type": "RECORD",
+                "mode": "REPEATED",
+                "fields": [
+                  {
+                    "name": "system",
+                    "type": "STRING",
+                    "mode": "NULLABLE"
+                  },
+                  {
+                    "name": "version",
+                    "type": "STRING",
+                    "mode": "NULLABLE"
+                  },
+                  {
+                    "name": "code",
+                    "type": "STRING",
+                    "mode": "NULLABLE"
+                  },
+                  {
+                    "name": "display",
+                    "type": "STRING",
+                    "mode": "NULLABLE"
+                  },
+                  {
+                    "name": "userSelected",
+                    "type": "BOOLEAN",
+                    "mode": "NULLABLE"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "implicitRules",
+        "type": "STRING",
+        "mode": "NULLABLE"
+      },
+      {
+        "name": "language",
+        "type": "STRING",
+        "mode": "NULLABLE"
+      },
+      {
+        "name": "text",
+        "type": "RECORD",
+        "mode": "NULLABLE",
+        "fields": [
+          {
+            "name": "status",
+            "type": "STRING",
+            "mode": "NULLABLE"
+          },
+          {
+            "name": "div",
+            "type": "STRING",
+            "mode": "NULLABLE"
+          }
+        ]
+      },
+      {
+        "name": "contained",
+        "type": "RECORD",
+        "mode": "NULLABLE",
+        "fields": [
+          {
+            "name": "array",
+            "type": "RECORD",
+            "mode": "REPEATED",
+            "fields": [
+              {
+                "name": "meta",
+                "type": "RECORD",
+                "mode": "NULLABLE",
+                "fields": [
+                  {
+                    "name": "versionId",
+                    "type": "STRING",
+                    "mode": "NULLABLE"
+                  },
+                  {
+                    "name": "lastUpdated",
+                    "type": "STRING",
+                    "mode": "NULLABLE"
+                  },
+                  {
+                    "name": "source",
+                    "type": "STRING",
+                    "mode": "NULLABLE"
+                  },
+                  {
+                    "name": "profile",
+                    "type": "RECORD",
+                    "mode": "NULLABLE",
+                    "fields": [
+                      {
+                        "name": "array",
+                        "type": "STRING",
+                        "mode": "REPEATED"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "security",
+                    "type": "RECORD",
+                    "mode": "NULLABLE",
+                    "fields": [
+                      {
+                        "name": "array",
+                        "type": "RECORD",
+                        "mode": "REPEATED",
+                        "fields": [
+                          {
+                            "name": "system",
+                            "type": "STRING",
+                            "mode": "NULLABLE"
+                          },
+                          {
+                            "name": "version",
+                            "type": "STRING",
+                            "mode": "NULLABLE"
+                          },
+                          {
+                            "name": "code",
+                            "type": "STRING",
+                            "mode": "NULLABLE"
+                          },
+                          {
+                            "name": "display",
+                            "type": "STRING",
+                            "mode": "NULLABLE"
+                          },
+                          {
+                            "name": "userSelected",
+                            "type": "BOOLEAN",
+                            "mode": "NULLABLE"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "tag",
+                    "type": "RECORD",
+                    "mode": "NULLABLE",
+                    "fields": [
+                      {
+                        "name": "array",
+                        "type": "RECORD",
+                        "mode": "REPEATED",
+                        "fields": [
+                          {
+                            "name": "system",
+                            "type": "STRING",
+                            "mode": "NULLABLE"
+                          },
+                          {
+                            "name": "version",
+                            "type": "STRING",
+                            "mode": "NULLABLE"
+                          },
+                          {
+                            "name": "code",
+                            "type": "STRING",
+                            "mode": "NULLABLE"
+                          },
+                          {
+                            "name": "display",
+                            "type": "STRING",
+                            "mode": "NULLABLE"
+                          },
+                          {
+                            "name": "userSelected",
+                            "type": "BOOLEAN",
+                            "mode": "NULLABLE"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "implicitRules",
+                "type": "STRING",
+                "mode": "NULLABLE"
+              },
+              {
+                "name": "language",
+                "type": "STRING",
+                "mode": "NULLABLE"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "identifier",
+        "type": "RECORD",
+        "mode": "NULLABLE",
+        "fields": [
+          {
+            "name": "array",
+            "type": "RECORD",
+            "mode": "REPEATED",
+            "fields": [
+              {
+                "name": "use",
+                "type": "STRING",
+                "mode": "NULLABLE"
+              },
+              {
+                "name": "type",
+                "type": "RECORD",
+                "mode": "NULLABLE",
+                "fields": [
+                  {
+                    "name": "coding",
+                    "type": "RECORD",
+                    "mode": "NULLABLE",
+                    "fields": [
+                      {
+                        "name": "array",
+                        "type": "RECORD",
+                        "mode": "REPEATED",
+                        "fields": [
+                          {
+                            "name": "system",
+                            "type": "STRING",
+                            "mode": "NULLABLE"
+                          },
+                          {
+                            "name": "version",
+                            "type": "STRING",
+                            "mode": "NULLABLE"
+                          },
+                          {
+                            "name": "code",
+                            "type": "STRING",
+                            "mode": "NULLABLE"
+                          },
+                          {
+                            "name": "display",
+                            "type": "STRING",
+                            "mode": "NULLABLE"
+                          },
+                          {
+                            "name": "userSelected",
+                            "type": "BOOLEAN",
+                            "mode": "NULLABLE"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "text",
+                    "type": "STRING",
+                    "mode": "NULLABLE"
+                  }
+                ]
+              },
+              {
+                "name": "system",
+                "type": "STRING",
+                "mode": "NULLABLE"
+              },
+              {
+                "name": "value",
+                "type": "STRING",
+                "mode": "NULLABLE"
+              },
+              {
+                "name": "period",
+                "type": "RECORD",
+                "mode": "NULLABLE",
+                "fields": [
+                  {
+                    "name": "start",
+                    "type": "STRING",
+                    "mode": "NULLABLE"
+                  },
+                  {
+                    "name": "end",
+                    "type": "STRING",
+                    "mode": "NULLABLE"
+                  }
+                ]
+              },
+              {
+                "name": "assigner",
+                "type": "RECORD",
+                "mode": "NULLABLE",
+                "fields": [
+                  {
+                    "name": "organizationId",
+                    "type": "STRING",
+                    "mode": "NULLABLE"
+                  },
+                  {
+                    "name": "id",
+                    "type": "STRING",
+                    "mode": "NULLABLE"
+                  },
+                  {
+                    "name": "reference",
+                    "type": "STRING",
+                    "mode": "NULLABLE"
+                  },
+                  {
+                    "name": "type",
+                    "type": "STRING",
+                    "mode": "NULLABLE"
+                  },
+                  {
+                    "name": "identifier",
+                    "type": "RECORD",
+                    "mode": "NULLABLE",
+                    "fields": [
+                      {
+                        "name": "use",
+                        "type": "STRING",
+                        "mode": "NULLABLE"
+                      },
+                      {
+                        "name": "type",
+                        "type": "RECORD",
+                        "mode": "NULLABLE",
+                        "fields": [
+                          {
+                            "name": "coding",
+                            "type": "RECORD",
+                            "mode": "NULLABLE",
+                            "fields": [
+                              {
+                                "name": "array",
+                                "type": "RECORD",
+                                "mode": "REPEATED",
+                                "fields": [
+                                  {
+                                    "name": "system",
+                                    "type": "STRING",
+                                    "mode": "NULLABLE"
+                                  },
+                                  {
+                                    "name": "version",
+                                    "type": "STRING",
+                                    "mode": "NULLABLE"
+                                  },
+                                  {
+                                    "name": "code",
+                                    "type": "STRING",
+                                    "mode": "NULLABLE"
+                                  },
+                                  {
+                                    "name": "display",
+                                    "type": "STRING",
+                                    "mode": "NULLABLE"
+                                  },
+                                  {
+                                    "name": "userSelected",
+                                    "type": "BOOLEAN",
+                                    "mode": "NULLABLE"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "name": "text",
+                            "type": "STRING",
+                            "mode": "NULLABLE"
+                          }
+                        ]
+                      },
+                      {
+                        "name": "system",
+                        "type": "STRING",
+                        "mode": "NULLABLE"
+                      },
+                      {
+                        "name": "value",
+                        "type": "STRING",
+                        "mode": "NULLABLE"
+                      },
+                      {
+                        "name": "period",
+                        "type": "RECORD",
+                        "mode": "NULLABLE",
+                        "fields": [
+                          {
+                            "name": "start",
+                            "type": "STRING",
+                            "mode": "NULLABLE"
+                          },
+                          {
+                            "name": "end",
+                            "type": "STRING",
+                            "mode": "NULLABLE"
+                          }
+                        ]
+                      },
+                      {
+                        "name": "assigner",
+                        "type": "RECORD",
+                        "mode": "NULLABLE",
+                        "fields": [
+                          {
+                            "name": "organizationId",
+                            "type": "STRING",
+                            "mode": "NULLABLE"
+                          },
+                          {
+                            "name": "id",
+                            "type": "STRING",
+                            "mode": "NULLABLE"
+                          },
+                          {
+                            "name": "reference",
+                            "type": "STRING",
+                            "mode": "NULLABLE"
+                          },
+                          {
+                            "name": "type",
+                            "type": "STRING",
+                            "mode": "NULLABLE"
+                          },
+                          {
+                            "name": "display",
+                            "type": "STRING",
+                            "mode": "NULLABLE"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "display",
+                    "type": "STRING",
+                    "mode": "NULLABLE"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "clinicalStatus",
+        "type": "RECORD",
+        "mode": "NULLABLE",
+        "fields": [
+          {
+            "name": "coding",
+            "type": "RECORD",
+            "mode": "NULLABLE",
+            "fields": [
+              {
+                "name": "array",
+                "type": "RECORD",
+                "mode": "REPEATED",
+                "fields": [
+                  {
+                    "name": "system",
+                    "type": "STRING",
+                    "mode": "NULLABLE"
+                  },
+                  {
+                    "name": "version",
+                    "type": "STRING",
+                    "mode": "NULLABLE"
+                  },
+                  {
+                    "name": "code",
+                    "type": "STRING",
+                    "mode": "NULLABLE"
+                  },
+                  {
+                    "name": "display",
+                    "type": "STRING",
+                    "mode": "NULLABLE"
+                  },
+                  {
+                    "name": "userSelected",
+                    "type": "BOOLEAN",
+                    "mode": "NULLABLE"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "text",
+            "type": "STRING",
+            "mode": "NULLABLE"
+          }
+        ]
+      },
+      {
+        "name": "verificationStatus",
+        "type": "RECORD",
+        "mode": "NULLABLE",
+        "fields": [
+          {
+            "name": "coding",
+            "type": "RECORD",
+            "mode": "NULLABLE",
+            "fields": [
+              {
+                "name": "array",
+                "type": "RECORD",
+                "mode": "REPEATED",
+                "fields": [
+                  {
+                    "name": "system",
+                    "type": "STRING",
+                    "mode": "NULLABLE"
+                  },
+                  {
+                    "name": "version",
+                    "type": "STRING",
+                    "mode": "NULLABLE"
+                  },
+                  {
+                    "name": "code",
+                    "type": "STRING",
+                    "mode": "NULLABLE"
+                  },
+                  {
+                    "name": "display",
+                    "type": "STRING",
+                    "mode": "NULLABLE"
+                  },
+                  {
+                    "name": "userSelected",
+                    "type": "BOOLEAN",
+                    "mode": "NULLABLE"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "text",
+            "type": "STRING",
+            "mode": "NULLABLE"
+          }
+        ]
+      },
+      {
+        "name": "category",
+        "type": "RECORD",
+        "mode": "NULLABLE",
+        "fields": [
+          {
+            "name": "array",
+            "type": "RECORD",
+            "mode": "REPEATED",
+            "fields": [
+              {
+                "name": "coding",
+                "type": "RECORD",
+                "mode": "NULLABLE",
+                "fields": [
+                  {
+                    "name": "array",
+                    "type": "RECORD",
+                    "mode": "REPEATED",
+                    "fields": [
+                      {
+                        "name": "system",
+                        "type": "STRING",
+                        "mode": "NULLABLE"
+                      },
+                      {
+                        "name": "version",
+                        "type": "STRING",
+                        "mode": "NULLABLE"
+                      },
+                      {
+                        "name": "code",
+                        "type": "STRING",
+                        "mode": "NULLABLE"
+                      },
+                      {
+                        "name": "display",
+                        "type": "STRING",
+                        "mode": "NULLABLE"
+                      },
+                      {
+                        "name": "userSelected",
+                        "type": "BOOLEAN",
+                        "mode": "NULLABLE"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "text",
+                "type": "STRING",
+                "mode": "NULLABLE"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "severity",
+        "type": "RECORD",
+        "mode": "NULLABLE",
+        "fields": [
+          {
+            "name": "coding",
+            "type": "RECORD",
+            "mode": "NULLABLE",
+            "fields": [
+              {
+                "name": "array",
+                "type": "RECORD",
+                "mode": "REPEATED",
+                "fields": [
+                  {
+                    "name": "system",
+                    "type": "STRING",
+                    "mode": "NULLABLE"
+                  },
+                  {
+                    "name": "version",
+                    "type": "STRING",
+                    "mode": "NULLABLE"
+                  },
+                  {
+                    "name": "code",
+                    "type": "STRING",
+                    "mode": "NULLABLE"
+                  },
+                  {
+                    "name": "display",
+                    "type": "STRING",
+                    "mode": "NULLABLE"
+                  },
+                  {
+                    "name": "userSelected",
+                    "type": "BOOLEAN",
+                    "mode": "NULLABLE"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "text",
+            "type": "STRING",
+            "mode": "NULLABLE"
+          }
+        ]
+      },
+      {
+        "name": "code",
+        "type": "RECORD",
+        "mode": "NULLABLE",
+        "fields": [
+          {
+            "name": "coding",
+            "type": "RECORD",
+            "mode": "NULLABLE",
+            "fields": [
+              {
+                "name": "array",
+                "type": "RECORD",
+                "mode": "REPEATED",
+                "fields": [
+                  {
+                    "name": "system",
+                    "type": "STRING",
+                    "mode": "NULLABLE"
+                  },
+                  {
+                    "name": "version",
+                    "type": "STRING",
+                    "mode": "NULLABLE"
+                  },
+                  {
+                    "name": "code",
+                    "type": "STRING",
+                    "mode": "NULLABLE"
+                  },
+                  {
+                    "name": "display",
+                    "type": "STRING",
+                    "mode": "NULLABLE"
+                  },
+                  {
+                    "name": "userSelected",
+                    "type": "BOOLEAN",
+                    "mode": "NULLABLE"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "text",
+            "type": "STRING",
+            "mode": "NULLABLE"
+          }
+        ]
+      },
+      {
+        "name": "bodySite",
+        "type": "RECORD",
+        "mode": "NULLABLE",
+        "fields": [
+          {
+            "name": "array",
+            "type": "RECORD",
+            "mode": "REPEATED",
+            "fields": [
+              {
+                "name": "coding",
+                "type": "RECORD",
+                "mode": "NULLABLE",
+                "fields": [
+                  {
+                    "name": "array",
+                    "type": "RECORD",
+                    "mode": "REPEATED",
+                    "fields": [
+                      {
+                        "name": "system",
+                        "type": "STRING",
+                        "mode": "NULLABLE"
+                      },
+                      {
+                        "name": "version",
+                        "type": "STRING",
+                        "mode": "NULLABLE"
+                      },
+                      {
+                        "name": "code",
+                        "type": "STRING",
+                        "mode": "NULLABLE"
+                      },
+                      {
+                        "name": "display",
+                        "type": "STRING",
+                        "mode": "NULLABLE"
+                      },
+                      {
+                        "name": "userSelected",
+                        "type": "BOOLEAN",
+                        "mode": "NULLABLE"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "text",
+                "type": "STRING",
+                "mode": "NULLABLE"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "subject",
+        "type": "RECORD",
+        "mode": "NULLABLE",
+        "fields": [
+          {
+            "name": "groupId",
+            "type": "STRING",
+            "mode": "NULLABLE"
+          },
+          {
+            "name": "patientId",
+            "type": "STRING",
+            "mode": "NULLABLE"
+          },
+          {
+            "name": "id",
+            "type": "STRING",
+            "mode": "NULLABLE"
+          },
+          {
+            "name": "reference",
+            "type": "STRING",
+            "mode": "NULLABLE"
+          },
+          {
+            "name": "type",
+            "type": "STRING",
+            "mode": "NULLABLE"
+          },
+          {
+            "name": "identifier",
+            "type": "RECORD",
+            "mode": "NULLABLE",
+            "fields": [
+              {
+                "name": "use",
+                "type": "STRING",
+                "mode": "NULLABLE"
+              },
+              {
+                "name": "type",
+                "type": "RECORD",
+                "mode": "NULLABLE",
+                "fields": [
+                  {
+                    "name": "coding",
+                    "type": "RECORD",
+                    "mode": "NULLABLE",
+                    "fields": [
+                      {
+                        "name": "array",
+                        "type": "RECORD",
+                        "mode": "REPEATED",
+                        "fields": [
+                          {
+                            "name": "system",
+                            "type": "STRING",
+                            "mode": "NULLABLE"
+                          },
+                          {
+                            "name": "version",
+                            "type": "STRING",
+                            "mode": "NULLABLE"
+                          },
+                          {
+                            "name": "code",
+                            "type": "STRING",
+                            "mode": "NULLABLE"
+                          },
+                          {
+                            "name": "display",
+                            "type": "STRING",
+                            "mode": "NULLABLE"
+                          },
+                          {
+                            "name": "userSelected",
+                            "type": "BOOLEAN",
+                            "mode": "NULLABLE"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "text",
+                    "type": "STRING",
+                    "mode": "NULLABLE"
+                  }
+                ]
+              },
+              {
+                "name": "system",
+                "type": "STRING",
+                "mode": "NULLABLE"
+              },
+              {
+                "name": "value",
+                "type": "STRING",
+                "mode": "NULLABLE"
+              },
+              {
+                "name": "period",
+                "type": "RECORD",
+                "mode": "NULLABLE",
+                "fields": [
+                  {
+                    "name": "start",
+                    "type": "STRING",
+                    "mode": "NULLABLE"
+                  },
+                  {
+                    "name": "end",
+                    "type": "STRING",
+                    "mode": "NULLABLE"
+                  }
+                ]
+              },
+              {
+                "name": "assigner",
+                "type": "RECORD",
+                "mode": "NULLABLE",
+                "fields": [
+                  {
+                    "name": "organizationId",
+                    "type": "STRING",
+                    "mode": "NULLABLE"
+                  },
+                  {
+                    "name": "id",
+                    "type": "STRING",
+                    "mode": "NULLABLE"
+                  },
+                  {
+                    "name": "reference",
+                    "type": "STRING",
+                    "mode": "NULLABLE"
+                  },
+                  {
+                    "name": "type",
+                    "type": "STRING",
+                    "mode": "NULLABLE"
+                  },
+                  {
+                    "name": "identifier",
+                    "type": "RECORD",
+                    "mode": "NULLABLE",
+                    "fields": [
+                      {
+                        "name": "use",
+                        "type": "STRING",
+                        "mode": "NULLABLE"
+                      },
+                      {
+                        "name": "type",
+                        "type": "RECORD",
+                        "mode": "NULLABLE",
+                        "fields": [
+                          {
+                            "name": "coding",
+                            "type": "RECORD",
+                            "mode": "NULLABLE",
+                            "fields": [
+                              {
+                                "name": "array",
+                                "type": "RECORD",
+                                "mode": "REPEATED",
+                                "fields": [
+                                  {
+                                    "name": "system",
+                                    "type": "STRING",
+                                    "mode": "NULLABLE"
+                                  },
+                                  {
+                                    "name": "version",
+                                    "type": "STRING",
+                                    "mode": "NULLABLE"
+                                  },
+                                  {
+                                    "name": "code",
+                                    "type": "STRING",
+                                    "mode": "NULLABLE"
+                                  },
+                                  {
+                                    "name": "display",
+                                    "type": "STRING",
+                                    "mode": "NULLABLE"
+                                  },
+                                  {
+                                    "name": "userSelected",
+                                    "type": "BOOLEAN",
+                                    "mode": "NULLABLE"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "name": "text",
+                            "type": "STRING",
+                            "mode": "NULLABLE"
+                          }
+                        ]
+                      },
+                      {
+                        "name": "system",
+                        "type": "STRING",
+                        "mode": "NULLABLE"
+                      },
+                      {
+                        "name": "value",
+                        "type": "STRING",
+                        "mode": "NULLABLE"
+                      },
+                      {
+                        "name": "period",
+                        "type": "RECORD",
+                        "mode": "NULLABLE",
+                        "fields": [
+                          {
+                            "name": "start",
+                            "type": "STRING",
+                            "mode": "NULLABLE"
+                          },
+                          {
+                            "name": "end",
+                            "type": "STRING",
+                            "mode": "NULLABLE"
+                          }
+                        ]
+                      },
+                      {
+                        "name": "assigner",
+                        "type": "RECORD",
+                        "mode": "NULLABLE",
+                        "fields": [
+                          {
+                            "name": "organizationId",
+                            "type": "STRING",
+                            "mode": "NULLABLE"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "display",
+                    "type": "STRING",
+                    "mode": "NULLABLE"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "display",
+            "type": "STRING",
+            "mode": "NULLABLE"
+          }
+        ]
+      },
+      {
+        "name": "encounter",
+        "type": "RECORD",
+        "mode": "NULLABLE",
+        "fields": [
+          {
+            "name": "encounterId",
+            "type": "STRING",
+            "mode": "NULLABLE"
+          },
+          {
+            "name": "id",
+            "type": "STRING",
+            "mode": "NULLABLE"
+          },
+          {
+            "name": "reference",
+            "type": "STRING",
+            "mode": "NULLABLE"
+          },
+          {
+            "name": "type",
+            "type": "STRING",
+            "mode": "NULLABLE"
+          },
+          {
+            "name": "identifier",
+            "type": "RECORD",
+            "mode": "NULLABLE",
+            "fields": [
+              {
+                "name": "use",
+                "type": "STRING",
+                "mode": "NULLABLE"
+              },
+              {
+                "name": "type",
+                "type": "RECORD",
+                "mode": "NULLABLE",
+                "fields": [
+                  {
+                    "name": "coding",
+                    "type": "RECORD",
+                    "mode": "NULLABLE",
+                    "fields": [
+                      {
+                        "name": "array",
+                        "type": "RECORD",
+                        "mode": "REPEATED",
+                        "fields": [
+                          {
+                            "name": "system",
+                            "type": "STRING",
+                            "mode": "NULLABLE"
+                          },
+                          {
+                            "name": "version",
+                            "type": "STRING",
+                            "mode": "NULLABLE"
+                          },
+                          {
+                            "name": "code",
+                            "type": "STRING",
+                            "mode": "NULLABLE"
+                          },
+                          {
+                            "name": "display",
+                            "type": "STRING",
+                            "mode": "NULLABLE"
+                          },
+                          {
+                            "name": "userSelected",
+                            "type": "BOOLEAN",
+                            "mode": "NULLABLE"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "text",
+                    "type": "STRING",
+                    "mode": "NULLABLE"
+                  }
+                ]
+              },
+              {
+                "name": "system",
+                "type": "STRING",
+                "mode": "NULLABLE"
+              },
+              {
+                "name": "value",
+                "type": "STRING",
+                "mode": "NULLABLE"
+              },
+              {
+                "name": "period",
+                "type": "RECORD",
+                "mode": "NULLABLE",
+                "fields": [
+                  {
+                    "name": "start",
+                    "type": "STRING",
+                    "mode": "NULLABLE"
+                  },
+                  {
+                    "name": "end",
+                    "type": "STRING",
+                    "mode": "NULLABLE"
+                  }
+                ]
+              },
+              {
+                "name": "assigner",
+                "type": "RECORD",
+                "mode": "NULLABLE",
+                "fields": [
+                  {
+                    "name": "organizationId",
+                    "type": "STRING",
+                    "mode": "NULLABLE"
+                  },
+                  {
+                    "name": "id",
+                    "type": "STRING",
+                    "mode": "NULLABLE"
+                  },
+                  {
+                    "name": "reference",
+                    "type": "STRING",
+                    "mode": "NULLABLE"
+                  },
+                  {
+                    "name": "type",
+                    "type": "STRING",
+                    "mode": "NULLABLE"
+                  },
+                  {
+                    "name": "identifier",
+                    "type": "RECORD",
+                    "mode": "NULLABLE",
+                    "fields": [
+                      {
+                        "name": "use",
+                        "type": "STRING",
+                        "mode": "NULLABLE"
+                      },
+                      {
+                        "name": "type",
+                        "type": "RECORD",
+                        "mode": "NULLABLE",
+                        "fields": [
+                          {
+                            "name": "coding",
+                            "type": "RECORD",
+                            "mode": "NULLABLE",
+                            "fields": [
+                              {
+                                "name": "array",
+                                "type": "RECORD",
+                                "mode": "REPEATED",
+                                "fields": [
+                                  {
+                                    "name": "system",
+                                    "type": "STRING",
+                                    "mode": "NULLABLE"
+                                  },
+                                  {
+                                    "name": "version",
+                                    "type": "STRING",
+                                    "mode": "NULLABLE"
+                                  },
+                                  {
+                                    "name": "code",
+                                    "type": "STRING",
+                                    "mode": "NULLABLE"
+                                  },
+                                  {
+                                    "name": "display",
+                                    "type": "STRING",
+                                    "mode": "NULLABLE"
+                                  },
+                                  {
+                                    "name": "userSelected",
+                                    "type": "BOOLEAN",
+                                    "mode": "NULLABLE"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "name": "text",
+                            "type": "STRING",
+                            "mode": "NULLABLE"
+                          }
+                        ]
+                      },
+                      {
+                        "name": "system",
+                        "type": "STRING",
+                        "mode": "NULLABLE"
+                      },
+                      {
+                        "name": "value",
+                        "type": "STRING",
+                        "mode": "NULLABLE"
+                      },
+                      {
+                        "name": "period",
+                        "type": "RECORD",
+                        "mode": "NULLABLE",
+                        "fields": [
+                          {
+                            "name": "start",
+                            "type": "STRING",
+                            "mode": "NULLABLE"
+                          },
+                          {
+                            "name": "end",
+                            "type": "STRING",
+                            "mode": "NULLABLE"
+                          }
+                        ]
+                      },
+                      {
+                        "name": "assigner",
+                        "type": "RECORD",
+                        "mode": "NULLABLE",
+                        "fields": [
+                          {
+                            "name": "organizationId",
+                            "type": "STRING",
+                            "mode": "NULLABLE"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "display",
+                    "type": "STRING",
+                    "mode": "NULLABLE"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "display",
+            "type": "STRING",
+            "mode": "NULLABLE"
+          }
+        ]
+      },
+      {
+        "name": "onset",
+        "type": "RECORD",
+        "mode": "NULLABLE",
+        "fields": [
+          {
+            "name": "dateTime",
+            "type": "STRING",
+            "mode": "NULLABLE"
+          },
+          {
+            "name": "age",
+            "type": "RECORD",
+            "mode": "NULLABLE",
+            "fields": [
+              {
+                "name": "value",
+                "type": "FLOAT",
+                "mode": "NULLABLE"
+              },
+              {
+                "name": "comparator",
+                "type": "STRING",
+                "mode": "NULLABLE"
+              },
+              {
+                "name": "unit",
+                "type": "STRING",
+                "mode": "NULLABLE"
+              },
+              {
+                "name": "system",
+                "type": "STRING",
+                "mode": "NULLABLE"
+              },
+              {
+                "name": "code",
+                "type": "STRING",
+                "mode": "NULLABLE"
+              }
+            ]
+          },
+          {
+            "name": "period",
+            "type": "RECORD",
+            "mode": "NULLABLE",
+            "fields": [
+              {
+                "name": "start",
+                "type": "STRING",
+                "mode": "NULLABLE"
+              },
+              {
+                "name": "end",
+                "type": "STRING",
+                "mode": "NULLABLE"
+              }
+            ]
+          },
+          {
+            "name": "range",
+            "type": "RECORD",
+            "mode": "NULLABLE",
+            "fields": [
+              {
+                "name": "low",
+                "type": "RECORD",
+                "mode": "NULLABLE",
+                "fields": [
+                  {
+                    "name": "value",
+                    "type": "FLOAT",
+                    "mode": "NULLABLE"
+                  },
+                  {
+                    "name": "comparator",
+                    "type": "STRING",
+                    "mode": "NULLABLE"
+                  },
+                  {
+                    "name": "unit",
+                    "type": "STRING",
+                    "mode": "NULLABLE"
+                  },
+                  {
+                    "name": "system",
+                    "type": "STRING",
+                    "mode": "NULLABLE"
+                  },
+                  {
+                    "name": "code",
+                    "type": "STRING",
+                    "mode": "NULLABLE"
+                  }
+                ]
+              },
+              {
+                "name": "high",
+                "type": "RECORD",
+                "mode": "NULLABLE",
+                "fields": [
+                  {
+                    "name": "value",
+                    "type": "FLOAT",
+                    "mode": "NULLABLE"
+                  },
+                  {
+                    "name": "comparator",
+                    "type": "STRING",
+                    "mode": "NULLABLE"
+                  },
+                  {
+                    "name": "unit",
+                    "type": "STRING",
+                    "mode": "NULLABLE"
+                  },
+                  {
+                    "name": "system",
+                    "type": "STRING",
+                    "mode": "NULLABLE"
+                  },
+                  {
+                    "name": "code",
+                    "type": "STRING",
+                    "mode": "NULLABLE"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "string",
+            "type": "STRING",
+            "mode": "NULLABLE"
+          }
+        ]
+      },
+      {
+        "name": "abatement",
+        "type": "RECORD",
+        "mode": "NULLABLE",
+        "fields": [
+          {
+            "name": "dateTime",
+            "type": "STRING",
+            "mode": "NULLABLE"
+          },
+          {
+            "name": "age",
+            "type": "RECORD",
+            "mode": "NULLABLE",
+            "fields": [
+              {
+                "name": "value",
+                "type": "FLOAT",
+                "mode": "NULLABLE"
+              },
+              {
+                "name": "comparator",
+                "type": "STRING",
+                "mode": "NULLABLE"
+              },
+              {
+                "name": "unit",
+                "type": "STRING",
+                "mode": "NULLABLE"
+              },
+              {
+                "name": "system",
+                "type": "STRING",
+                "mode": "NULLABLE"
+              },
+              {
+                "name": "code",
+                "type": "STRING",
+                "mode": "NULLABLE"
+              }
+            ]
+          },
+          {
+            "name": "period",
+            "type": "RECORD",
+            "mode": "NULLABLE",
+            "fields": [
+              {
+                "name": "start",
+                "type": "STRING",
+                "mode": "NULLABLE"
+              },
+              {
+                "name": "end",
+                "type": "STRING",
+                "mode": "NULLABLE"
+              }
+            ]
+          },
+          {
+            "name": "range",
+            "type": "RECORD",
+            "mode": "NULLABLE",
+            "fields": [
+              {
+                "name": "low",
+                "type": "RECORD",
+                "mode": "NULLABLE",
+                "fields": [
+                  {
+                    "name": "value",
+                    "type": "FLOAT",
+                    "mode": "NULLABLE"
+                  },
+                  {
+                    "name": "comparator",
+                    "type": "STRING",
+                    "mode": "NULLABLE"
+                  },
+                  {
+                    "name": "unit",
+                    "type": "STRING",
+                    "mode": "NULLABLE"
+                  },
+                  {
+                    "name": "system",
+                    "type": "STRING",
+                    "mode": "NULLABLE"
+                  },
+                  {
+                    "name": "code",
+                    "type": "STRING",
+                    "mode": "NULLABLE"
+                  }
+                ]
+              },
+              {
+                "name": "high",
+                "type": "RECORD",
+                "mode": "NULLABLE",
+                "fields": [
+                  {
+                    "name": "value",
+                    "type": "FLOAT",
+                    "mode": "NULLABLE"
+                  },
+                  {
+                    "name": "comparator",
+                    "type": "STRING",
+                    "mode": "NULLABLE"
+                  },
+                  {
+                    "name": "unit",
+                    "type": "STRING",
+                    "mode": "NULLABLE"
+                  },
+                  {
+                    "name": "system",
+                    "type": "STRING",
+                    "mode": "NULLABLE"
+                  },
+                  {
+                    "name": "code",
+                    "type": "STRING",
+                    "mode": "NULLABLE"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "string",
+            "type": "STRING",
+            "mode": "NULLABLE"
+          }
+        ]
+      },
+      {
+        "name": "recordedDate",
+        "type": "STRING",
+        "mode": "NULLABLE"
+      },
+      {
+        "name": "recorder",
+        "type": "RECORD",
+        "mode": "NULLABLE",
+        "fields": [
+          {
+            "name": "patientId",
+            "type": "STRING",
+            "mode": "NULLABLE"
+          },
+          {
+            "name": "practitionerId",
+            "type": "STRING",
+            "mode": "NULLABLE"
+          },
+          {
+            "name": "practitionerRoleId",
+            "type": "STRING",
+            "mode": "NULLABLE"
+          },
+          {
+            "name": "relatedPersonId",
+            "type": "STRING",
+            "mode": "NULLABLE"
+          },
+          {
+            "name": "id",
+            "type": "STRING",
+            "mode": "NULLABLE"
+          },
+          {
+            "name": "reference",
+            "type": "STRING",
+            "mode": "NULLABLE"
+          },
+          {
+            "name": "type",
+            "type": "STRING",
+            "mode": "NULLABLE"
+          },
+          {
+            "name": "identifier",
+            "type": "RECORD",
+            "mode": "NULLABLE",
+            "fields": [
+              {
+                "name": "use",
+                "type": "STRING",
+                "mode": "NULLABLE"
+              },
+              {
+                "name": "type",
+                "type": "RECORD",
+                "mode": "NULLABLE",
+                "fields": [
+                  {
+                    "name": "coding",
+                    "type": "RECORD",
+                    "mode": "NULLABLE",
+                    "fields": [
+                      {
+                        "name": "array",
+                        "type": "RECORD",
+                        "mode": "REPEATED",
+                        "fields": [
+                          {
+                            "name": "system",
+                            "type": "STRING",
+                            "mode": "NULLABLE"
+                          },
+                          {
+                            "name": "version",
+                            "type": "STRING",
+                            "mode": "NULLABLE"
+                          },
+                          {
+                            "name": "code",
+                            "type": "STRING",
+                            "mode": "NULLABLE"
+                          },
+                          {
+                            "name": "display",
+                            "type": "STRING",
+                            "mode": "NULLABLE"
+                          },
+                          {
+                            "name": "userSelected",
+                            "type": "BOOLEAN",
+                            "mode": "NULLABLE"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "text",
+                    "type": "STRING",
+                    "mode": "NULLABLE"
+                  }
+                ]
+              },
+              {
+                "name": "system",
+                "type": "STRING",
+                "mode": "NULLABLE"
+              },
+              {
+                "name": "value",
+                "type": "STRING",
+                "mode": "NULLABLE"
+              },
+              {
+                "name": "period",
+                "type": "RECORD",
+                "mode": "NULLABLE",
+                "fields": [
+                  {
+                    "name": "start",
+                    "type": "STRING",
+                    "mode": "NULLABLE"
+                  },
+                  {
+                    "name": "end",
+                    "type": "STRING",
+                    "mode": "NULLABLE"
+                  }
+                ]
+              },
+              {
+                "name": "assigner",
+                "type": "RECORD",
+                "mode": "NULLABLE",
+                "fields": [
+                  {
+                    "name": "organizationId",
+                    "type": "STRING",
+                    "mode": "NULLABLE"
+                  },
+                  {
+                    "name": "id",
+                    "type": "STRING",
+                    "mode": "NULLABLE"
+                  },
+                  {
+                    "name": "reference",
+                    "type": "STRING",
+                    "mode": "NULLABLE"
+                  },
+                  {
+                    "name": "type",
+                    "type": "STRING",
+                    "mode": "NULLABLE"
+                  },
+                  {
+                    "name": "identifier",
+                    "type": "RECORD",
+                    "mode": "NULLABLE",
+                    "fields": [
+                      {
+                        "name": "use",
+                        "type": "STRING",
+                        "mode": "NULLABLE"
+                      },
+                      {
+                        "name": "type",
+                        "type": "RECORD",
+                        "mode": "NULLABLE",
+                        "fields": [
+                          {
+                            "name": "coding",
+                            "type": "RECORD",
+                            "mode": "NULLABLE",
+                            "fields": [
+                              {
+                                "name": "array",
+                                "type": "RECORD",
+                                "mode": "REPEATED",
+                                "fields": [
+                                  {
+                                    "name": "system",
+                                    "type": "STRING",
+                                    "mode": "NULLABLE"
+                                  },
+                                  {
+                                    "name": "version",
+                                    "type": "STRING",
+                                    "mode": "NULLABLE"
+                                  },
+                                  {
+                                    "name": "code",
+                                    "type": "STRING",
+                                    "mode": "NULLABLE"
+                                  },
+                                  {
+                                    "name": "display",
+                                    "type": "STRING",
+                                    "mode": "NULLABLE"
+                                  },
+                                  {
+                                    "name": "userSelected",
+                                    "type": "BOOLEAN",
+                                    "mode": "NULLABLE"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "name": "text",
+                            "type": "STRING",
+                            "mode": "NULLABLE"
+                          }
+                        ]
+                      },
+                      {
+                        "name": "system",
+                        "type": "STRING",
+                        "mode": "NULLABLE"
+                      },
+                      {
+                        "name": "value",
+                        "type": "STRING",
+                        "mode": "NULLABLE"
+                      },
+                      {
+                        "name": "period",
+                        "type": "RECORD",
+                        "mode": "NULLABLE",
+                        "fields": [
+                          {
+                            "name": "start",
+                            "type": "STRING",
+                            "mode": "NULLABLE"
+                          },
+                          {
+                            "name": "end",
+                            "type": "STRING",
+                            "mode": "NULLABLE"
+                          }
+                        ]
+                      },
+                      {
+                        "name": "assigner",
+                        "type": "RECORD",
+                        "mode": "NULLABLE",
+                        "fields": [
+                          {
+                            "name": "organizationId",
+                            "type": "STRING",
+                            "mode": "NULLABLE"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "display",
+                    "type": "STRING",
+                    "mode": "NULLABLE"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "display",
+            "type": "STRING",
+            "mode": "NULLABLE"
+          }
+        ]
+      },
+      {
+        "name": "asserter",
+        "type": "RECORD",
+        "mode": "NULLABLE",
+        "fields": [
+          {
+            "name": "patientId",
+            "type": "STRING",
+            "mode": "NULLABLE"
+          },
+          {
+            "name": "practitionerId",
+            "type": "STRING",
+            "mode": "NULLABLE"
+          },
+          {
+            "name": "practitionerRoleId",
+            "type": "STRING",
+            "mode": "NULLABLE"
+          },
+          {
+            "name": "relatedPersonId",
+            "type": "STRING",
+            "mode": "NULLABLE"
+          },
+          {
+            "name": "id",
+            "type": "STRING",
+            "mode": "NULLABLE"
+          },
+          {
+            "name": "reference",
+            "type": "STRING",
+            "mode": "NULLABLE"
+          },
+          {
+            "name": "type",
+            "type": "STRING",
+            "mode": "NULLABLE"
+          },
+          {
+            "name": "identifier",
+            "type": "RECORD",
+            "mode": "NULLABLE",
+            "fields": [
+              {
+                "name": "use",
+                "type": "STRING",
+                "mode": "NULLABLE"
+              },
+              {
+                "name": "type",
+                "type": "RECORD",
+                "mode": "NULLABLE",
+                "fields": [
+                  {
+                    "name": "coding",
+                    "type": "RECORD",
+                    "mode": "NULLABLE",
+                    "fields": [
+                      {
+                        "name": "array",
+                        "type": "RECORD",
+                        "mode": "REPEATED",
+                        "fields": [
+                          {
+                            "name": "system",
+                            "type": "STRING",
+                            "mode": "NULLABLE"
+                          },
+                          {
+                            "name": "version",
+                            "type": "STRING",
+                            "mode": "NULLABLE"
+                          },
+                          {
+                            "name": "code",
+                            "type": "STRING",
+                            "mode": "NULLABLE"
+                          },
+                          {
+                            "name": "display",
+                            "type": "STRING",
+                            "mode": "NULLABLE"
+                          },
+                          {
+                            "name": "userSelected",
+                            "type": "BOOLEAN",
+                            "mode": "NULLABLE"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "text",
+                    "type": "STRING",
+                    "mode": "NULLABLE"
+                  }
+                ]
+              },
+              {
+                "name": "system",
+                "type": "STRING",
+                "mode": "NULLABLE"
+              },
+              {
+                "name": "value",
+                "type": "STRING",
+                "mode": "NULLABLE"
+              },
+              {
+                "name": "period",
+                "type": "RECORD",
+                "mode": "NULLABLE",
+                "fields": [
+                  {
+                    "name": "start",
+                    "type": "STRING",
+                    "mode": "NULLABLE"
+                  },
+                  {
+                    "name": "end",
+                    "type": "STRING",
+                    "mode": "NULLABLE"
+                  }
+                ]
+              },
+              {
+                "name": "assigner",
+                "type": "RECORD",
+                "mode": "NULLABLE",
+                "fields": [
+                  {
+                    "name": "organizationId",
+                    "type": "STRING",
+                    "mode": "NULLABLE"
+                  },
+                  {
+                    "name": "id",
+                    "type": "STRING",
+                    "mode": "NULLABLE"
+                  },
+                  {
+                    "name": "reference",
+                    "type": "STRING",
+                    "mode": "NULLABLE"
+                  },
+                  {
+                    "name": "type",
+                    "type": "STRING",
+                    "mode": "NULLABLE"
+                  },
+                  {
+                    "name": "identifier",
+                    "type": "RECORD",
+                    "mode": "NULLABLE",
+                    "fields": [
+                      {
+                        "name": "use",
+                        "type": "STRING",
+                        "mode": "NULLABLE"
+                      },
+                      {
+                        "name": "type",
+                        "type": "RECORD",
+                        "mode": "NULLABLE",
+                        "fields": [
+                          {
+                            "name": "coding",
+                            "type": "RECORD",
+                            "mode": "NULLABLE",
+                            "fields": [
+                              {
+                                "name": "array",
+                                "type": "RECORD",
+                                "mode": "REPEATED",
+                                "fields": [
+                                  {
+                                    "name": "system",
+                                    "type": "STRING",
+                                    "mode": "NULLABLE"
+                                  },
+                                  {
+                                    "name": "version",
+                                    "type": "STRING",
+                                    "mode": "NULLABLE"
+                                  },
+                                  {
+                                    "name": "code",
+                                    "type": "STRING",
+                                    "mode": "NULLABLE"
+                                  },
+                                  {
+                                    "name": "display",
+                                    "type": "STRING",
+                                    "mode": "NULLABLE"
+                                  },
+                                  {
+                                    "name": "userSelected",
+                                    "type": "BOOLEAN",
+                                    "mode": "NULLABLE"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "name": "text",
+                            "type": "STRING",
+                            "mode": "NULLABLE"
+                          }
+                        ]
+                      },
+                      {
+                        "name": "system",
+                        "type": "STRING",
+                        "mode": "NULLABLE"
+                      },
+                      {
+                        "name": "value",
+                        "type": "STRING",
+                        "mode": "NULLABLE"
+                      },
+                      {
+                        "name": "period",
+                        "type": "RECORD",
+                        "mode": "NULLABLE",
+                        "fields": [
+                          {
+                            "name": "start",
+                            "type": "STRING",
+                            "mode": "NULLABLE"
+                          },
+                          {
+                            "name": "end",
+                            "type": "STRING",
+                            "mode": "NULLABLE"
+                          }
+                        ]
+                      },
+                      {
+                        "name": "assigner",
+                        "type": "RECORD",
+                        "mode": "NULLABLE",
+                        "fields": [
+                          {
+                            "name": "organizationId",
+                            "type": "STRING",
+                            "mode": "NULLABLE"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "display",
+                    "type": "STRING",
+                    "mode": "NULLABLE"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "display",
+            "type": "STRING",
+            "mode": "NULLABLE"
+          }
+        ]
+      },
+      {
+        "name": "stage",
+        "type": "RECORD",
+        "mode": "NULLABLE",
+        "fields": [
+          {
+            "name": "array",
+            "type": "RECORD",
+            "mode": "REPEATED",
+            "fields": [
+              {
+                "name": "id",
+                "type": "STRING",
+                "mode": "NULLABLE"
+              },
+              {
+                "name": "summary",
+                "type": "RECORD",
+                "mode": "NULLABLE",
+                "fields": [
+                  {
+                    "name": "coding",
+                    "type": "RECORD",
+                    "mode": "NULLABLE",
+                    "fields": [
+                      {
+                        "name": "array",
+                        "type": "RECORD",
+                        "mode": "REPEATED",
+                        "fields": [
+                          {
+                            "name": "system",
+                            "type": "STRING",
+                            "mode": "NULLABLE"
+                          },
+                          {
+                            "name": "version",
+                            "type": "STRING",
+                            "mode": "NULLABLE"
+                          },
+                          {
+                            "name": "code",
+                            "type": "STRING",
+                            "mode": "NULLABLE"
+                          },
+                          {
+                            "name": "display",
+                            "type": "STRING",
+                            "mode": "NULLABLE"
+                          },
+                          {
+                            "name": "userSelected",
+                            "type": "BOOLEAN",
+                            "mode": "NULLABLE"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "text",
+                    "type": "STRING",
+                    "mode": "NULLABLE"
+                  }
+                ]
+              },
+              {
+                "name": "assessment",
+                "type": "RECORD",
+                "mode": "NULLABLE",
+                "fields": [
+                  {
+                    "name": "array",
+                    "type": "RECORD",
+                    "mode": "REPEATED",
+                    "fields": [
+                      {
+                        "name": "clinicalImpressionId",
+                        "type": "STRING",
+                        "mode": "NULLABLE"
+                      },
+                      {
+                        "name": "diagnosticReportId",
+                        "type": "STRING",
+                        "mode": "NULLABLE"
+                      },
+                      {
+                        "name": "observationId",
+                        "type": "STRING",
+                        "mode": "NULLABLE"
+                      },
+                      {
+                        "name": "id",
+                        "type": "STRING",
+                        "mode": "NULLABLE"
+                      },
+                      {
+                        "name": "reference",
+                        "type": "STRING",
+                        "mode": "NULLABLE"
+                      },
+                      {
+                        "name": "type",
+                        "type": "STRING",
+                        "mode": "NULLABLE"
+                      },
+                      {
+                        "name": "identifier",
+                        "type": "RECORD",
+                        "mode": "NULLABLE",
+                        "fields": [
+                          {
+                            "name": "use",
+                            "type": "STRING",
+                            "mode": "NULLABLE"
+                          },
+                          {
+                            "name": "type",
+                            "type": "RECORD",
+                            "mode": "NULLABLE",
+                            "fields": [
+                              {
+                                "name": "coding",
+                                "type": "RECORD",
+                                "mode": "NULLABLE",
+                                "fields": [
+                                  {
+                                    "name": "array",
+                                    "type": "RECORD",
+                                    "mode": "REPEATED",
+                                    "fields": [
+                                      {
+                                        "name": "system",
+                                        "type": "STRING",
+                                        "mode": "NULLABLE"
+                                      },
+                                      {
+                                        "name": "version",
+                                        "type": "STRING",
+                                        "mode": "NULLABLE"
+                                      },
+                                      {
+                                        "name": "code",
+                                        "type": "STRING",
+                                        "mode": "NULLABLE"
+                                      },
+                                      {
+                                        "name": "display",
+                                        "type": "STRING",
+                                        "mode": "NULLABLE"
+                                      },
+                                      {
+                                        "name": "userSelected",
+                                        "type": "BOOLEAN",
+                                        "mode": "NULLABLE"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "name": "text",
+                                "type": "STRING",
+                                "mode": "NULLABLE"
+                              }
+                            ]
+                          },
+                          {
+                            "name": "system",
+                            "type": "STRING",
+                            "mode": "NULLABLE"
+                          },
+                          {
+                            "name": "value",
+                            "type": "STRING",
+                            "mode": "NULLABLE"
+                          },
+                          {
+                            "name": "period",
+                            "type": "RECORD",
+                            "mode": "NULLABLE",
+                            "fields": [
+                              {
+                                "name": "start",
+                                "type": "STRING",
+                                "mode": "NULLABLE"
+                              },
+                              {
+                                "name": "end",
+                                "type": "STRING",
+                                "mode": "NULLABLE"
+                              }
+                            ]
+                          },
+                          {
+                            "name": "assigner",
+                            "type": "RECORD",
+                            "mode": "NULLABLE",
+                            "fields": [
+                              {
+                                "name": "organizationId",
+                                "type": "STRING",
+                                "mode": "NULLABLE"
+                              },
+                              {
+                                "name": "id",
+                                "type": "STRING",
+                                "mode": "NULLABLE"
+                              },
+                              {
+                                "name": "reference",
+                                "type": "STRING",
+                                "mode": "NULLABLE"
+                              },
+                              {
+                                "name": "type",
+                                "type": "STRING",
+                                "mode": "NULLABLE"
+                              },
+                              {
+                                "name": "identifier",
+                                "type": "RECORD",
+                                "mode": "NULLABLE",
+                                "fields": [
+                                  {
+                                    "name": "use",
+                                    "type": "STRING",
+                                    "mode": "NULLABLE"
+                                  },
+                                  {
+                                    "name": "type",
+                                    "type": "RECORD",
+                                    "mode": "NULLABLE",
+                                    "fields": [
+                                      {
+                                        "name": "coding",
+                                        "type": "RECORD",
+                                        "mode": "NULLABLE",
+                                        "fields": [
+                                          {
+                                            "name": "array",
+                                            "type": "RECORD",
+                                            "mode": "REPEATED",
+                                            "fields": [
+                                              {
+                                                "name": "system",
+                                                "type": "STRING",
+                                                "mode": "NULLABLE"
+                                              },
+                                              {
+                                                "name": "version",
+                                                "type": "STRING",
+                                                "mode": "NULLABLE"
+                                              },
+                                              {
+                                                "name": "code",
+                                                "type": "STRING",
+                                                "mode": "NULLABLE"
+                                              },
+                                              {
+                                                "name": "display",
+                                                "type": "STRING",
+                                                "mode": "NULLABLE"
+                                              },
+                                              {
+                                                "name": "userSelected",
+                                                "type": "BOOLEAN",
+                                                "mode": "NULLABLE"
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "name": "text",
+                                        "type": "STRING",
+                                        "mode": "NULLABLE"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "name": "system",
+                                    "type": "STRING",
+                                    "mode": "NULLABLE"
+                                  },
+                                  {
+                                    "name": "value",
+                                    "type": "STRING",
+                                    "mode": "NULLABLE"
+                                  },
+                                  {
+                                    "name": "period",
+                                    "type": "RECORD",
+                                    "mode": "NULLABLE",
+                                    "fields": [
+                                      {
+                                        "name": "start",
+                                        "type": "STRING",
+                                        "mode": "NULLABLE"
+                                      },
+                                      {
+                                        "name": "end",
+                                        "type": "STRING",
+                                        "mode": "NULLABLE"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "name": "assigner",
+                                    "type": "RECORD",
+                                    "mode": "NULLABLE",
+                                    "fields": [
+                                      {
+                                        "name": "organizationId",
+                                        "type": "STRING",
+                                        "mode": "NULLABLE"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "name": "display",
+                                "type": "STRING",
+                                "mode": "NULLABLE"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "name": "display",
+                        "type": "STRING",
+                        "mode": "NULLABLE"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "type",
+                "type": "RECORD",
+                "mode": "NULLABLE",
+                "fields": [
+                  {
+                    "name": "coding",
+                    "type": "RECORD",
+                    "mode": "NULLABLE",
+                    "fields": [
+                      {
+                        "name": "array",
+                        "type": "RECORD",
+                        "mode": "REPEATED",
+                        "fields": [
+                          {
+                            "name": "system",
+                            "type": "STRING",
+                            "mode": "NULLABLE"
+                          },
+                          {
+                            "name": "version",
+                            "type": "STRING",
+                            "mode": "NULLABLE"
+                          },
+                          {
+                            "name": "code",
+                            "type": "STRING",
+                            "mode": "NULLABLE"
+                          },
+                          {
+                            "name": "display",
+                            "type": "STRING",
+                            "mode": "NULLABLE"
+                          },
+                          {
+                            "name": "userSelected",
+                            "type": "BOOLEAN",
+                            "mode": "NULLABLE"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "text",
+                    "type": "STRING",
+                    "mode": "NULLABLE"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "evidence",
+        "type": "RECORD",
+        "mode": "NULLABLE",
+        "fields": [
+          {
+            "name": "array",
+            "type": "RECORD",
+            "mode": "REPEATED",
+            "fields": [
+              {
+                "name": "id",
+                "type": "STRING",
+                "mode": "NULLABLE"
+              },
+              {
+                "name": "code",
+                "type": "RECORD",
+                "mode": "NULLABLE",
+                "fields": [
+                  {
+                    "name": "array",
+                    "type": "RECORD",
+                    "mode": "REPEATED",
+                    "fields": [
+                      {
+                        "name": "coding",
+                        "type": "RECORD",
+                        "mode": "NULLABLE",
+                        "fields": [
+                          {
+                            "name": "array",
+                            "type": "RECORD",
+                            "mode": "REPEATED",
+                            "fields": [
+                              {
+                                "name": "system",
+                                "type": "STRING",
+                                "mode": "NULLABLE"
+                              },
+                              {
+                                "name": "version",
+                                "type": "STRING",
+                                "mode": "NULLABLE"
+                              },
+                              {
+                                "name": "code",
+                                "type": "STRING",
+                                "mode": "NULLABLE"
+                              },
+                              {
+                                "name": "display",
+                                "type": "STRING",
+                                "mode": "NULLABLE"
+                              },
+                              {
+                                "name": "userSelected",
+                                "type": "BOOLEAN",
+                                "mode": "NULLABLE"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "name": "text",
+                        "type": "STRING",
+                        "mode": "NULLABLE"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "detail",
+                "type": "RECORD",
+                "mode": "NULLABLE",
+                "fields": [
+                  {
+                    "name": "array",
+                    "type": "RECORD",
+                    "mode": "REPEATED",
+                    "fields": [
+                      {
+                        "name": "resourceId",
+                        "type": "STRING",
+                        "mode": "NULLABLE"
+                      },
+                      {
+                        "name": "id",
+                        "type": "STRING",
+                        "mode": "NULLABLE"
+                      },
+                      {
+                        "name": "reference",
+                        "type": "STRING",
+                        "mode": "NULLABLE"
+                      },
+                      {
+                        "name": "type",
+                        "type": "STRING",
+                        "mode": "NULLABLE"
+                      },
+                      {
+                        "name": "identifier",
+                        "type": "RECORD",
+                        "mode": "NULLABLE",
+                        "fields": [
+                          {
+                            "name": "use",
+                            "type": "STRING",
+                            "mode": "NULLABLE"
+                          },
+                          {
+                            "name": "type",
+                            "type": "RECORD",
+                            "mode": "NULLABLE",
+                            "fields": [
+                              {
+                                "name": "coding",
+                                "type": "RECORD",
+                                "mode": "NULLABLE",
+                                "fields": [
+                                  {
+                                    "name": "array",
+                                    "type": "RECORD",
+                                    "mode": "REPEATED",
+                                    "fields": [
+                                      {
+                                        "name": "system",
+                                        "type": "STRING",
+                                        "mode": "NULLABLE"
+                                      },
+                                      {
+                                        "name": "version",
+                                        "type": "STRING",
+                                        "mode": "NULLABLE"
+                                      },
+                                      {
+                                        "name": "code",
+                                        "type": "STRING",
+                                        "mode": "NULLABLE"
+                                      },
+                                      {
+                                        "name": "display",
+                                        "type": "STRING",
+                                        "mode": "NULLABLE"
+                                      },
+                                      {
+                                        "name": "userSelected",
+                                        "type": "BOOLEAN",
+                                        "mode": "NULLABLE"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "name": "text",
+                                "type": "STRING",
+                                "mode": "NULLABLE"
+                              }
+                            ]
+                          },
+                          {
+                            "name": "system",
+                            "type": "STRING",
+                            "mode": "NULLABLE"
+                          },
+                          {
+                            "name": "value",
+                            "type": "STRING",
+                            "mode": "NULLABLE"
+                          },
+                          {
+                            "name": "period",
+                            "type": "RECORD",
+                            "mode": "NULLABLE",
+                            "fields": [
+                              {
+                                "name": "start",
+                                "type": "STRING",
+                                "mode": "NULLABLE"
+                              },
+                              {
+                                "name": "end",
+                                "type": "STRING",
+                                "mode": "NULLABLE"
+                              }
+                            ]
+                          },
+                          {
+                            "name": "assigner",
+                            "type": "RECORD",
+                            "mode": "NULLABLE",
+                            "fields": [
+                              {
+                                "name": "organizationId",
+                                "type": "STRING",
+                                "mode": "NULLABLE"
+                              },
+                              {
+                                "name": "id",
+                                "type": "STRING",
+                                "mode": "NULLABLE"
+                              },
+                              {
+                                "name": "reference",
+                                "type": "STRING",
+                                "mode": "NULLABLE"
+                              },
+                              {
+                                "name": "type",
+                                "type": "STRING",
+                                "mode": "NULLABLE"
+                              },
+                              {
+                                "name": "identifier",
+                                "type": "RECORD",
+                                "mode": "NULLABLE",
+                                "fields": [
+                                  {
+                                    "name": "use",
+                                    "type": "STRING",
+                                    "mode": "NULLABLE"
+                                  },
+                                  {
+                                    "name": "type",
+                                    "type": "RECORD",
+                                    "mode": "NULLABLE",
+                                    "fields": [
+                                      {
+                                        "name": "coding",
+                                        "type": "RECORD",
+                                        "mode": "NULLABLE",
+                                        "fields": [
+                                          {
+                                            "name": "array",
+                                            "type": "RECORD",
+                                            "mode": "REPEATED",
+                                            "fields": [
+                                              {
+                                                "name": "system",
+                                                "type": "STRING",
+                                                "mode": "NULLABLE"
+                                              },
+                                              {
+                                                "name": "version",
+                                                "type": "STRING",
+                                                "mode": "NULLABLE"
+                                              },
+                                              {
+                                                "name": "code",
+                                                "type": "STRING",
+                                                "mode": "NULLABLE"
+                                              },
+                                              {
+                                                "name": "display",
+                                                "type": "STRING",
+                                                "mode": "NULLABLE"
+                                              },
+                                              {
+                                                "name": "userSelected",
+                                                "type": "BOOLEAN",
+                                                "mode": "NULLABLE"
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "name": "text",
+                                        "type": "STRING",
+                                        "mode": "NULLABLE"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "name": "system",
+                                    "type": "STRING",
+                                    "mode": "NULLABLE"
+                                  },
+                                  {
+                                    "name": "value",
+                                    "type": "STRING",
+                                    "mode": "NULLABLE"
+                                  },
+                                  {
+                                    "name": "period",
+                                    "type": "RECORD",
+                                    "mode": "NULLABLE",
+                                    "fields": [
+                                      {
+                                        "name": "start",
+                                        "type": "STRING",
+                                        "mode": "NULLABLE"
+                                      },
+                                      {
+                                        "name": "end",
+                                        "type": "STRING",
+                                        "mode": "NULLABLE"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "name": "assigner",
+                                    "type": "RECORD",
+                                    "mode": "NULLABLE",
+                                    "fields": [
+                                      {
+                                        "name": "organizationId",
+                                        "type": "STRING",
+                                        "mode": "NULLABLE"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "name": "display",
+                                "type": "STRING",
+                                "mode": "NULLABLE"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "name": "display",
+                        "type": "STRING",
+                        "mode": "NULLABLE"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "note",
+        "type": "RECORD",
+        "mode": "NULLABLE",
+        "fields": [
+          {
+            "name": "array",
+            "type": "RECORD",
+            "mode": "REPEATED",
+            "fields": [
+              {
+                "name": "author",
+                "type": "RECORD",
+                "mode": "NULLABLE",
+                "fields": [
+                  {
+                    "name": "reference",
+                    "type": "RECORD",
+                    "mode": "NULLABLE",
+                    "fields": [
+                      {
+                        "name": "organizationId",
+                        "type": "STRING",
+                        "mode": "NULLABLE"
+                      },
+                      {
+                        "name": "patientId",
+                        "type": "STRING",
+                        "mode": "NULLABLE"
+                      },
+                      {
+                        "name": "practitionerId",
+                        "type": "STRING",
+                        "mode": "NULLABLE"
+                      },
+                      {
+                        "name": "relatedPersonId",
+                        "type": "STRING",
+                        "mode": "NULLABLE"
+                      },
+                      {
+                        "name": "id",
+                        "type": "STRING",
+                        "mode": "NULLABLE"
+                      },
+                      {
+                        "name": "reference",
+                        "type": "STRING",
+                        "mode": "NULLABLE"
+                      },
+                      {
+                        "name": "type",
+                        "type": "STRING",
+                        "mode": "NULLABLE"
+                      },
+                      {
+                        "name": "identifier",
+                        "type": "RECORD",
+                        "mode": "NULLABLE",
+                        "fields": [
+                          {
+                            "name": "use",
+                            "type": "STRING",
+                            "mode": "NULLABLE"
+                          },
+                          {
+                            "name": "type",
+                            "type": "RECORD",
+                            "mode": "NULLABLE",
+                            "fields": [
+                              {
+                                "name": "coding",
+                                "type": "RECORD",
+                                "mode": "NULLABLE",
+                                "fields": [
+                                  {
+                                    "name": "array",
+                                    "type": "RECORD",
+                                    "mode": "REPEATED",
+                                    "fields": [
+                                      {
+                                        "name": "system",
+                                        "type": "STRING",
+                                        "mode": "NULLABLE"
+                                      },
+                                      {
+                                        "name": "version",
+                                        "type": "STRING",
+                                        "mode": "NULLABLE"
+                                      },
+                                      {
+                                        "name": "code",
+                                        "type": "STRING",
+                                        "mode": "NULLABLE"
+                                      },
+                                      {
+                                        "name": "display",
+                                        "type": "STRING",
+                                        "mode": "NULLABLE"
+                                      },
+                                      {
+                                        "name": "userSelected",
+                                        "type": "BOOLEAN",
+                                        "mode": "NULLABLE"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "name": "text",
+                                "type": "STRING",
+                                "mode": "NULLABLE"
+                              }
+                            ]
+                          },
+                          {
+                            "name": "system",
+                            "type": "STRING",
+                            "mode": "NULLABLE"
+                          },
+                          {
+                            "name": "value",
+                            "type": "STRING",
+                            "mode": "NULLABLE"
+                          },
+                          {
+                            "name": "period",
+                            "type": "RECORD",
+                            "mode": "NULLABLE",
+                            "fields": [
+                              {
+                                "name": "start",
+                                "type": "STRING",
+                                "mode": "NULLABLE"
+                              },
+                              {
+                                "name": "end",
+                                "type": "STRING",
+                                "mode": "NULLABLE"
+                              }
+                            ]
+                          },
+                          {
+                            "name": "assigner",
+                            "type": "RECORD",
+                            "mode": "NULLABLE",
+                            "fields": [
+                              {
+                                "name": "organizationId",
+                                "type": "STRING",
+                                "mode": "NULLABLE"
+                              },
+                              {
+                                "name": "id",
+                                "type": "STRING",
+                                "mode": "NULLABLE"
+                              },
+                              {
+                                "name": "reference",
+                                "type": "STRING",
+                                "mode": "NULLABLE"
+                              },
+                              {
+                                "name": "type",
+                                "type": "STRING",
+                                "mode": "NULLABLE"
+                              },
+                              {
+                                "name": "identifier",
+                                "type": "RECORD",
+                                "mode": "NULLABLE",
+                                "fields": [
+                                  {
+                                    "name": "use",
+                                    "type": "STRING",
+                                    "mode": "NULLABLE"
+                                  },
+                                  {
+                                    "name": "type",
+                                    "type": "RECORD",
+                                    "mode": "NULLABLE",
+                                    "fields": [
+                                      {
+                                        "name": "coding",
+                                        "type": "RECORD",
+                                        "mode": "NULLABLE",
+                                        "fields": [
+                                          {
+                                            "name": "array",
+                                            "type": "RECORD",
+                                            "mode": "REPEATED",
+                                            "fields": [
+                                              {
+                                                "name": "system",
+                                                "type": "STRING",
+                                                "mode": "NULLABLE"
+                                              },
+                                              {
+                                                "name": "version",
+                                                "type": "STRING",
+                                                "mode": "NULLABLE"
+                                              },
+                                              {
+                                                "name": "code",
+                                                "type": "STRING",
+                                                "mode": "NULLABLE"
+                                              },
+                                              {
+                                                "name": "display",
+                                                "type": "STRING",
+                                                "mode": "NULLABLE"
+                                              },
+                                              {
+                                                "name": "userSelected",
+                                                "type": "BOOLEAN",
+                                                "mode": "NULLABLE"
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "name": "text",
+                                        "type": "STRING",
+                                        "mode": "NULLABLE"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "name": "system",
+                                    "type": "STRING",
+                                    "mode": "NULLABLE"
+                                  },
+                                  {
+                                    "name": "value",
+                                    "type": "STRING",
+                                    "mode": "NULLABLE"
+                                  },
+                                  {
+                                    "name": "period",
+                                    "type": "RECORD",
+                                    "mode": "NULLABLE",
+                                    "fields": [
+                                      {
+                                        "name": "start",
+                                        "type": "STRING",
+                                        "mode": "NULLABLE"
+                                      },
+                                      {
+                                        "name": "end",
+                                        "type": "STRING",
+                                        "mode": "NULLABLE"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "name": "assigner",
+                                    "type": "RECORD",
+                                    "mode": "NULLABLE",
+                                    "fields": [
+                                      {
+                                        "name": "organizationId",
+                                        "type": "STRING",
+                                        "mode": "NULLABLE"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "name": "display",
+                                "type": "STRING",
+                                "mode": "NULLABLE"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "name": "display",
+                        "type": "STRING",
+                        "mode": "NULLABLE"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "string",
+                    "type": "STRING",
+                    "mode": "NULLABLE"
+                  }
+                ]
+              },
+              {
+                "name": "time",
+                "type": "STRING",
+                "mode": "NULLABLE"
+              },
+              {
+                "name": "text",
+                "type": "STRING",
+                "mode": "NULLABLE"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "assertedDate",
+        "type": "STRING",
+        "mode": "NULLABLE"
+      }
+    ]
+  },
+  "jobReference": {
+    "projectId": "apigee-tlab1",
+    "jobId": "job_HbDrrFpEye5czNeZnAxtxc73LTXj",
+    "location": "EU"
+  },
+  "totalRows": "2",
+  "rows": [
+    {
+      "f": [
+        {
+          "v": "850"
+        },
+        {
+          "v": {
+            "f": [
+              {
+                "v": "1"
+              },
+              {
+                "v": "2024-11-22T06:58:28.000+00:00"
+              },
+              {
+                "v": null
+              },
+              {
+                "v": {
+                  "f": [
+                    {
+                      "v": [
+                        {
+                          "v": "https://gematik.de/fhir/isik/v2/Basismodul/StructureDefinition/ISiKDiagnose"
+                        },
+                        {
+                          "v": "https://tiplu.de/fhir/StructureDefinition/TipluDiagnose"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "v": null
+              },
+              {
+                "v": {
+                  "f": [
+                    {
+                      "v": [
+                        {
+                          "v": {
+                            "f": [
+                              {
+                                "v": "https://tiplu.de/fhir/CodeSystem/UrsacheBidirektionalGesperrt"
+                              },
+                              {
+                                "v": null
+                              },
+                              {
+                                "v": "Fremdsystem"
+                              },
+                              {
+                                "v": "Fremdsystem"
+                              },
+                              {
+                                "v": null
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "v": {
+                            "f": [
+                              {
+                                "v": "https://tiplu.de/fhir/CodeSystem/UrsacheBidirektionalGesperrt"
+                              },
+                              {
+                                "v": null
+                              },
+                              {
+                                "v": "Aufnahmediagnose"
+                              },
+                              {
+                                "v": "Aufnahmediagnose"
+                              },
+                              {
+                                "v": null
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "v": null
+        },
+        {
+          "v": null
+        },
+        {
+          "v": null
+        },
+        {
+          "v": null
+        },
+        {
+          "v": {
+            "f": [
+              {
+                "v": [
+                  {
+                    "v": {
+                      "f": [
+                        {
+                          "v": null
+                        },
+                        {
+                          "v": {
+                            "f": [
+                              {
+                                "v": {
+                                  "f": [
+                                    {
+                                      "v": [
+                                        {
+                                          "v": {
+                                            "f": [
+                                              {
+                                                "v": "https://tiplu.de/fhir/CodeSystem/identifierTypeExtended"
+                                              },
+                                              {
+                                                "v": null
+                                              },
+                                              {
+                                                "v": "DIAGID"
+                                              },
+                                              {
+                                                "v": null
+                                              },
+                                              {
+                                                "v": null
+                                              }
+                                            ]
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              },
+                              {
+                                "v": null
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "v": "https://krankenhaus.tiplu.de/fhir/identifier/condition"
+                        },
+                        {
+                          "v": "P021575b0082079d1"
+                        },
+                        {
+                          "v": null
+                        },
+                        {
+                          "v": null
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "v": null
+        },
+        {
+          "v": null
+        },
+        {
+          "v": {
+            "f": [
+              {
+                "v": [
+                  {
+                    "v": {
+                      "f": [
+                        {
+                          "v": {
+                            "f": [
+                              {
+                                "v": [
+                                  {
+                                    "v": {
+                                      "f": [
+                                        {
+                                          "v": "http://fhir.de/CodeSystem/diagnosis-role-supplement"
+                                        },
+                                        {
+                                          "v": null
+                                        },
+                                        {
+                                          "v": "AD"
+                                        },
+                                        {
+                                          "v": "Aufnahmediagnose"
+                                        },
+                                        {
+                                          "v": null
+                                        }
+                                      ]
+                                    }
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "v": null
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "v": null
+        },
+        {
+          "v": {
+            "f": [
+              {
+                "v": {
+                  "f": [
+                    {
+                      "v": [
+                        {
+                          "v": {
+                            "f": [
+                              {
+                                "v": "http://fhir.de/CodeSystem/bfarm/icd-10-gm"
+                              },
+                              {
+                                "v": "2022"
+                              },
+                              {
+                                "v": "K92.1"
+                              },
+                              {
+                                "v": null
+                              },
+                              {
+                                "v": null
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "v": null
+              }
+            ]
+          }
+        },
+        {
+          "v": null
+        },
+        {
+          "v": {
+            "f": [
+              {
+                "v": null
+              },
+              {
+                "v": "465"
+              },
+              {
+                "v": null
+              },
+              {
+                "v": "Patient/465"
+              },
+              {
+                "v": null
+              },
+              {
+                "v": null
+              },
+              {
+                "v": null
+              }
+            ]
+          }
+        },
+        {
+          "v": {
+            "f": [
+              {
+                "v": "879"
+              },
+              {
+                "v": null
+              },
+              {
+                "v": "Encounter/879"
+              },
+              {
+                "v": null
+              },
+              {
+                "v": null
+              },
+              {
+                "v": null
+              }
+            ]
+          }
+        },
+        {
+          "v": null
+        },
+        {
+          "v": null
+        },
+        {
+          "v": "2024-03-14T02:19:17+02:00"
+        },
+        {
+          "v": null
+        },
+        {
+          "v": null
+        },
+        {
+          "v": null
+        },
+        {
+          "v": null
+        },
+        {
+          "v": null
+        },
+        {
+          "v": null
+        }
+      ]
+    },
+    {
+      "f": [
+        {
+          "v": "2850"
+        },
+        {
+          "v": {
+            "f": [
+              {
+                "v": "1"
+              },
+              {
+                "v": "2024-11-22T08:54:32.000+00:00"
+              },
+              {
+                "v": null
+              },
+              {
+                "v": {
+                  "f": [
+                    {
+                      "v": [
+                        {
+                          "v": "https://gematik.de/fhir/isik/v2/Basismodul/StructureDefinition/ISiKDiagnose"
+                        },
+                        {
+                          "v": "https://tiplu.de/fhir/StructureDefinition/TipluDiagnose"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "v": null
+              },
+              {
+                "v": {
+                  "f": [
+                    {
+                      "v": [
+                        {
+                          "v": {
+                            "f": [
+                              {
+                                "v": "https://tiplu.de/fhir/CodeSystem/UrsacheBidirektionalGesperrt"
+                              },
+                              {
+                                "v": null
+                              },
+                              {
+                                "v": "Aufnahmediagnose"
+                              },
+                              {
+                                "v": "Aufnahmediagnose"
+                              },
+                              {
+                                "v": null
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "v": {
+                            "f": [
+                              {
+                                "v": "https://tiplu.de/fhir/CodeSystem/UrsacheBidirektionalGesperrt"
+                              },
+                              {
+                                "v": null
+                              },
+                              {
+                                "v": "Fremdsystem"
+                              },
+                              {
+                                "v": "Fremdsystem"
+                              },
+                              {
+                                "v": null
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "v": null
+        },
+        {
+          "v": null
+        },
+        {
+          "v": null
+        },
+        {
+          "v": null
+        },
+        {
+          "v": {
+            "f": [
+              {
+                "v": [
+                  {
+                    "v": {
+                      "f": [
+                        {
+                          "v": null
+                        },
+                        {
+                          "v": {
+                            "f": [
+                              {
+                                "v": {
+                                  "f": [
+                                    {
+                                      "v": [
+                                        {
+                                          "v": {
+                                            "f": [
+                                              {
+                                                "v": "https://tiplu.de/fhir/CodeSystem/identifierTypeExtended"
+                                              },
+                                              {
+                                                "v": null
+                                              },
+                                              {
+                                                "v": "DIAGID"
+                                              },
+                                              {
+                                                "v": null
+                                              },
+                                              {
+                                                "v": null
+                                              }
+                                            ]
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              },
+                              {
+                                "v": null
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "v": "https://krankenhaus.tiplu.de/fhir/identifier/condition"
+                        },
+                        {
+                          "v": "P021575b0082079d1"
+                        },
+                        {
+                          "v": null
+                        },
+                        {
+                          "v": null
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "v": null
+        },
+        {
+          "v": null
+        },
+        {
+          "v": {
+            "f": [
+              {
+                "v": [
+                  {
+                    "v": {
+                      "f": [
+                        {
+                          "v": {
+                            "f": [
+                              {
+                                "v": [
+                                  {
+                                    "v": {
+                                      "f": [
+                                        {
+                                          "v": "http://fhir.de/CodeSystem/diagnosis-role-supplement"
+                                        },
+                                        {
+                                          "v": null
+                                        },
+                                        {
+                                          "v": "AD"
+                                        },
+                                        {
+                                          "v": "Aufnahmediagnose"
+                                        },
+                                        {
+                                          "v": null
+                                        }
+                                      ]
+                                    }
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "v": null
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "v": null
+        },
+        {
+          "v": {
+            "f": [
+              {
+                "v": {
+                  "f": [
+                    {
+                      "v": [
+                        {
+                          "v": {
+                            "f": [
+                              {
+                                "v": "http://fhir.de/CodeSystem/bfarm/icd-10-gm"
+                              },
+                              {
+                                "v": "2022"
+                              },
+                              {
+                                "v": "K92.1"
+                              },
+                              {
+                                "v": null
+                              },
+                              {
+                                "v": null
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "v": null
+              }
+            ]
+          }
+        },
+        {
+          "v": null
+        },
+        {
+          "v": {
+            "f": [
+              {
+                "v": null
+              },
+              {
+                "v": "2465"
+              },
+              {
+                "v": null
+              },
+              {
+                "v": "Patient/2465"
+              },
+              {
+                "v": null
+              },
+              {
+                "v": null
+              },
+              {
+                "v": null
+              }
+            ]
+          }
+        },
+        {
+          "v": {
+            "f": [
+              {
+                "v": "2879"
+              },
+              {
+                "v": null
+              },
+              {
+                "v": "Encounter/2879"
+              },
+              {
+                "v": null
+              },
+              {
+                "v": null
+              },
+              {
+                "v": null
+              }
+            ]
+          }
+        },
+        {
+          "v": null
+        },
+        {
+          "v": null
+        },
+        {
+          "v": "2024-03-14T02:19:17+02:00"
+        },
+        {
+          "v": null
+        },
+        {
+          "v": null
+        },
+        {
+          "v": null
+        },
+        {
+          "v": null
+        },
+        {
+          "v": null
+        },
+        {
+          "v": null
+        }
+      ]
+    }
+  ],
+  "totalBytesProcessed": "0",
+  "jobComplete": true,
+  "cacheHit": true,
+  "queryId": "job_HbDrrFpEye5czNeZnAxtxc73LTXj",
+  "jobCreationReason": {
+    "code": "REQUESTED"
+  }
+}

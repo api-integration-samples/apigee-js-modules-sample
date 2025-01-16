@@ -1,0 +1,5 @@
+{
+  "name": "test-doc1",
+  "id": "test-doc1",
+  "roles": ["admin", "internal"]
+}

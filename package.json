@@ -1,0 +1,14 @@
+{
+  "name": "apigee-js-tester",
+  "version": "1.0.0",
+  "description": "This is a project for testing javascript logic before using in Apigee",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^10.3.0"
+  }
+}

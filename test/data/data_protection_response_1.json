@@ -1,0 +1,50 @@
+{
+  "result": {
+    "findings": [
+      {
+        "quote": "(800) 555-0123",
+        "infoType": {
+          "name": "US_TOLLFREE_PHONE_NUMBER",
+          "sensitivityScore": {
+            "score": "SENSITIVITY_MODERATE"
+          }
+        },
+        "likelihood": "VERY_LIKELY",
+        "location": {
+          "byteRange": {
+            "start": "19",
+            "end": "33"
+          },
+          "codepointRange": {
+            "start": "19",
+            "end": "33"
+          }
+        },
+        "createTime": "2024-07-16T04:29:50.097Z",
+        "findingId": "2024-07-16T04:29:50.099079Z5384992467225413968"
+      },
+      {
+        "quote": "France",
+        "infoType": {
+          "name": "COUNTRY_DEMOGRAPHIC",
+          "sensitivityScore": {
+            "score": "SENSITIVITY_MODERATE"
+          }
+        },
+        "likelihood": "LIKELY",
+        "location": {
+          "byteRange": {
+            "start": "49",
+            "end": "55"
+          },
+          "codepointRange": {
+            "start": "49",
+            "end": "55"
+          }
+        },
+        "createTime": "2024-07-16T04:29:50.097Z",
+        "findingId": "2024-07-16T04:29:50.099112Z1166891130070548633"
+      }
+    ]
+  }
+}
