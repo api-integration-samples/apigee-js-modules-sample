@@ -24,6 +24,14 @@ describe('#convertBigQueryResponseSingle()', function() {
   });
 });
 
+describe('#convertBigQueryResponseSingleWithReplacement()', function() {
+  it('should return a JSON record with field name replacement', function() {
+    let response = bqFunctions.convertResponse(bigquery_row, "transactions", "", {"SendingTime": "SendingTimeNew"});
+    assert.notEqual(response, "");
+    assert.equal(response.transactions[0]["SendingTimeNew"], "1.589822877E9");
+  });
+});
+
 describe('#convertBigQueryResponse10Rows()', function() {
   it('should return a JSON record', function() {
     let response = bqFunctions.convertResponse(bigquery_rows1, "transactions");
@@ -41,7 +49,6 @@ describe('#convertBigQueryResponse10Rows2()', function() {
 describe('#convertBigQueryFihrRows2()', function() {
   it('should return a JSON record', function() {
     let response = bqFunctions.convertResponse(bigquery_fihr_rows2, "transactions");
-    console.log(JSON.stringify(response, "2"));
     assert.notEqual(response, "");
   });
 });

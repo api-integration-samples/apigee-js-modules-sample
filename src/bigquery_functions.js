@@ -37,11 +37,11 @@ function generateQuery(query, table, input_filter, order_by, page_size, page_tok
   return newQuery;
 }
 
-function convertResponse(dataResponseObject, entity_name, page_token) {
+function convertResponse(dataResponseObject, entity_name, page_token = "", fieldNameReplacements = {}) {
 
   var responseObject = {};
 
-  responseObject[entity_name] = doConversionRows(dataResponseObject, dataResponseObject.schema.fields);
+  responseObject[entity_name] = doConversionRows(dataResponseObject, dataResponseObject.schema.fields, fieldNameReplacements);
 
   if (page_token) {
     responseObject["next_page_token"] = parseInt(page_token) + 1;
@@ -53,17 +53,17 @@ function convertResponse(dataResponseObject, entity_name, page_token) {
   return responseObject;
 }
 
-function doConversionRows(inputObject, fields) {
+function doConversionRows(inputObject, fields, fieldNameReplacements = {}) {
   var result = [];
   for (var rowKey in inputObject.rows) {
     var row = inputObject.rows[rowKey];
-    result.push(doConversion(row, fields));
+    result.push(doConversion(row, fields, fieldNameReplacements));
   }
 
   return result;
 }
 
-function doConversion(inputObject, fields) {
+function doConversion(inputObject, fields, fieldNameReplacements = {}) {
   var result;
   if (inputObject.f) {
     // This is a field object, so collect properties
@@ -72,17 +72,22 @@ function doConversion(inputObject, fields) {
       var value = inputObject.f[valueKey];
       var type = fields[valueKey].type;
       var mode = fields[valueKey].mode;
+      var name = fields[valueKey].name;
+      if (fieldNameReplacements[name]) {
+        name = fieldNameReplacements[name];
+      }
+
       if (type != "RECORD") {
         // simple value
-        result[fields[valueKey].name] = value.v;
+        result[name] = value.v;
       }
       else if (type === "RECORD" && mode === "REPEATED") {
         // child array
-        result[fields[valueKey].name] = doConversion(value, fields[valueKey].fields);
+        result[name] = doConversion(value, fields[valueKey].fields, fieldNameReplacements);
       }
       else if (type === "RECORD") {
         // child object
-        result[fields[valueKey].name] = doConversion(value, fields[valueKey].fields);
+        result[name] = doConversion(value, fields[valueKey].fields, fieldNameReplacements);
       }
     }
   }
@@ -93,12 +98,12 @@ function doConversion(inputObject, fields) {
       result = [];
       for (var valueKey in inputObject.v) {
         var value = inputObject.v[valueKey];
-        result = result.concat(doConversion(value, fields));
+        result = result.concat(doConversion(value, fields, fieldNameReplacements));
       }
     }
     else {
       // This is an object
-      result = doConversion(inputObject.v, fields);
+      result = doConversion(inputObject.v, fields, fieldNameReplacements);
     }
   }
 
